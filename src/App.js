@@ -6,7 +6,6 @@ import Header from './Layout/Nav0';
 import Footer from './Layout/Footer1';
 import Home from './Home';
 import AIResearch from './AIResearch';
-import AINews from  './AINews'
 
 import {
   Nav00DataSource,
@@ -38,7 +37,6 @@ class App extends Component{
             <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
             <Route exact path="/" component={Home} />
             <Route exact path="/AIResearch" component={AIResearch}/>
-            <Route exact path="/AINews" component={AINews}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
         </Router>

@@ -19,7 +19,7 @@ export const Feature50DataSource = {
         name: 'content',
         children: (
           <>
-            <p>AI 大事记</p>
+            <p>HOT·AI 大事记·BOMB</p>
           </>
         ),
       },
@@ -32,7 +32,7 @@ export const Feature50DataSource = {
         name: 'block0',
         tag: {
           className: 'content7-tag',
-          text: { children: 'PHONE', className: 'content7-tag-name' },
+          text: { children: 'GOOGLE', className: 'content7-tag-name' },
           icon: { children: 'mobile' },
         },
         content: {
@@ -44,12 +44,12 @@ export const Feature50DataSource = {
             children: (
               <>
                 <span>
-                  <h3>技术</h3>
+                  <h2><b>Learn from ML experts at Google</b></h2>
                   <p>
                     丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
                   </p>
                   <br />
-                  <h3>融合</h3>
+                  <h2><b>Learn from ML experts at Google</b></h2>
                   <p>
                     解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
                   </p>
@@ -75,7 +75,7 @@ export const Feature50DataSource = {
         tag: {
           className: 'content7-tag',
           icon: { children: 'tablet' },
-          text: { className: 'content7-tag-name', children: 'TABLET' },
+          text: { className: 'content7-tag-name', children: '百度' },
         },
         content: {
           className: 'content7-content',
@@ -116,7 +116,7 @@ export const Feature50DataSource = {
         name: 'block2',
         tag: {
           className: 'content7-tag',
-          text: { children: 'DESKTOP', className: 'content7-tag-name' },
+          text: { children: 'Alibaba', className: 'content7-tag-name' },
           icon: { children: 'laptop' },
         },
         content: {
@@ -200,17 +200,17 @@ export const Feature70DataSource = {
               name: 'image',
               className: 'feature7-block-image',
               children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                'https://www.qbitai.com/wp-content/uploads/2019/08/1-2.jpg',
             },
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: '来源：量子位Qbit',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: '明略科技入选国家新一代人工智能开放创新平台',
             },
           ],
         },
@@ -227,17 +227,17 @@ export const Feature70DataSource = {
               name: 'image',
               className: 'feature7-block-image',
               children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                'https://www.qbitai.com/wp-content/uploads/2019/08/-e1567054399234.jpg',
             },
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: '来源：量子位',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: '加速产业AI化！浪潮提出“元脑”生态计划，要成就行业AI大脑',
             },
           ],
         },
@@ -254,7 +254,7 @@ export const Feature70DataSource = {
               name: 'image',
               className: 'feature7-block-image',
               children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                'https://www.qbitai.com/wp-content/uploads/2019/08/屏幕快照-2019-08-30-上午11.14.05.png',
             },
             {
               name: 'title',
@@ -264,7 +264,7 @@ export const Feature70DataSource = {
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: 'MIT线形机器人灵活穿行脑血管，还能轻松急转弯：华人教授团队出品，登上Science子刊',
             },
           ],
         },
@@ -281,7 +281,7 @@ export const Feature70DataSource = {
               name: 'image',
               className: 'feature7-block-image',
               children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                'https://www.qbitai.com/wp-content/uploads/2019/08/OpenSpielB-e1566968856976.png',
             },
             {
               name: 'title',
@@ -291,7 +291,7 @@ export const Feature70DataSource = {
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: 'DeepMind重磅开源强化学习框架！覆盖28款游戏，24个算法',
             },
           ],
         },
@@ -313,12 +313,12 @@ export const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: '来源：',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: '世界AI大会三马纵论：马云乐观、马斯克悲观，马化腾认为技术孤立主义有大危害',
             },
           ],
         },

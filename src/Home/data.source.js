@@ -1,10 +1,11 @@
 import React from 'react';
+const url_video = 'https://couseraccess.oss-cn-beijing.aliyuncs.com/videos/%5B%E9%AB%98%E6%B8%85%201080P%5D%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88Machine%20Learning%EF%BC%89-%20%E5%90%B4%E6%81%A9%E8%BE%BE%EF%BC%88Andrew%20Ng%EF%BC%89_P2_1%20-%202%20-%20Welcome%E3%80%90%E4%B8%AD%E8%8B%B1%E3%80%91.mp4';
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children: 'src/imgs/logo2.png',
   },
   Menu: {
     className: 'header0-menu',
@@ -42,7 +43,7 @@ export const Nav00DataSource = {
             },
           ],
         },
-        subItem: [
+        /*subItem: [
           {
             name: 'sub~item0',
             className: 'item-sub',
@@ -93,9 +94,9 @@ export const Nav00DataSource = {
               ],
             },
           },
-        ],
+        ],*/
       },
-      {
+      /*{
         name: 'item1',
         className: 'header0-item',
         children: {
@@ -111,7 +112,7 @@ export const Nav00DataSource = {
             },
           ],
         },
-      },
+      },*/
       {
         name: 'item2',
         className: 'header0-item',
@@ -328,8 +329,8 @@ export const Content40DataSource = {
   video: {
     className: 'content4-video',
     children: {
-      video: 'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
-      image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
+      video: url_video,
+      image: 'src/imgs/video.png',
     },
   },
 };
@@ -344,7 +345,7 @@ export const Content50DataSource = {
         name: 'title',
         children: (
           <>
-            <p>AI News</p>
+            <p>AI news</p>
           </>
         ),
         className: 'title-h1',
@@ -352,7 +353,7 @@ export const Content50DataSource = {
       {
         name: 'content',
         className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
+        children: '如果你要掌握它，那么最好了解世界上其它人的进度。',
       },
     ],
   },
@@ -369,9 +370,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/photo1535168135836-1535168135836979040191-e1574225968671.jpg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '谷歌大脑开源「数据增强」新招数：ImageNet准确率达85%大神Quoc出品' },
         },
       },
       {
@@ -383,9 +384,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/8dcb9a84ebbc42c49d2e372eb572ead4-e1573967131446.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '这个中国科学家的救命AI，登上了国外热门榜' },
         },
       },
       {
@@ -397,9 +398,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/safety-gym-cover-e1574395603877.png',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '从“小”培养AI安全意识：OpenAI开源最新强化学习训练工具，安全约束自由定制' },
         },
       },
       {
@@ -411,9 +412,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/0c8e251deb11b5d-e1574325632470.png',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '索尼大法要专门开始搞AI了，成立Sony AI，发力游戏、影像和美食' },
         },
       },
       {
@@ -425,9 +426,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/ae0c3ac8542c4fc1b71280d33b21b217-e1572931644421.jpeg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '中文预训练模型ZEN开源，效果领域内最佳，创新工场港科大出品' },
         },
       },
       {
@@ -439,9 +440,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/640-166-e1574314027281.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '对话CMU计算机新任院长：看好AI交叉创新出成果' },
         },
       },
       {
@@ -453,9 +454,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/-e1574140269843.jpg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '何恺明最新一作论文：无监督胜有监督，迁移学习无压力，刷新7项检测分割任务' },
         },
       },
       {
@@ -467,9 +468,9 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://www.qbitai.com/wp-content/uploads/2019/11/WechatIMG106-e1574050484863.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '陆奇首批YC中国门徒：包鱼塘、搞汽配、画动漫…都用AI' },
         },
       },
     ],
@@ -494,7 +495,7 @@ export const Content30DataSource = {
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: '为什么不亲自动手试试呢，Coding yourself。',
       },
     ],
   },
@@ -640,7 +641,7 @@ export const Content90DataSource = {
         name: 'title',
         children: (
           <>
-            <p>AI Research</p>
+            <p>AI History</p>
           </>
         ),
         className: 'title-h1',
@@ -667,11 +668,12 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/qJnGrvjXPxdKETlVSrbe.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
+          name: { className: 'block-name', children: '约翰·麦卡锡' },
+          post: { className: 'block-post', children: '达特茅斯学院' },
+          time: { className: 'block-time', children: '1956年' },
           title: { className: 'block-title', children: '开幕致辞' },
-          content: { className: 'block-content', children: '' },
+          content: { className: 'block-content', children: '人工智能的诞生\n' +
+                '在由达特茅斯学院举办的一次会议上，计算机专家约翰·麦卡锡提出了“人工智能”一词。后来，这被人们看做是人工智能正式诞生的标志。后来他与另一位名叫马文·明斯基(后被人称为“人工智能之父”) 共同创建了世界上第一座人工智能实验室——MIT AI LAB实验室，在那之后不久，最早的一批人工智能学者和技术开始涌现。\n' },
         },
       },
       {
@@ -691,14 +693,15 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: { className: 'block-name', children: '罗森布拉特' },
+          post: { className: 'block-post', children: '神经网路前辈' },
+          time: { className: 'block-time', children: '1957年' },
+          title: { className: 'block-title', children: '人工智能的第一次发展' },
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+              '神经网络Perceptron\n' +
+                '罗森布拉特发明神经网络Perceptron。计算机被广泛应用于数学和自然语言领域，用来解决代数、几何和英语问题。这让很多研究学者看到了机器向人工智能发展的信心。甚至在当时，有很多学者认为：“二十年内，机器将能完成人能做到的一切。”\n'
           },
         },
       },
@@ -719,14 +722,15 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: { className: 'block-name', children: 'XCON系统' },
+          post: { className: 'block-post', children: '卡内基梅隆大学' },
+          time: { className: 'block-time', children: '1980年' },
+          title: { className: 'block-title', children: '人工智能崛起' },
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+              'XCON“专家系统”\n' +
+                '卡内基梅隆大学为数字设备公司设计了一套名为XCON的“专家系统”。这是一种，采用人工智能程序的系统，可以简单的理解为“知识库+推理机”的组合，XCON是一套具有完整专业知识和经验的计算机智能系统，为公司节约了4000万美元。\n'
           },
         },
       },
@@ -747,14 +751,14 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: { className: 'block-name', children: 'IBM公司' },
+          post: { className: 'block-post', children: '计算机系统“深蓝”' },
+          time: { className: 'block-time', children: '1997年5月11日' },
+          title: { className: 'block-title', children: '人工智能的第二次崛起' },
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+                '上世纪九十年代中期开始，随着AI技术尤其是神经网络技术的逐步发展，以及人们对AI开始抱有客观理性的认知，人工智能技术开始进入平稳发展时期。IBM的计算机系统“深蓝”战胜了国际象棋世界冠军卡斯帕罗夫，又一次在公众领域引发了现象。2006年，Hinton在神经网络的深度学习领域取得突破，人类又一次看到机器赶超人类的希望,也是标志性的技术进步。 2016年，Deepmind团队的AlphaGO运用深度学习算法战胜围棋冠军。\n'
           },
         },
       },
@@ -782,7 +786,7 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '要么忙着生存，要么赶着去死，人总要做点什么。',
               className: 'teams0-content',
             },
             {
@@ -796,7 +800,7 @@ export const Teams00DataSource = {
             },
             {
               name: 'content2',
-              children: '公司+职位 信息暂缺',
+              children: '软工1703-前端攻城狮',
               className: 'teams0-content',
             },
           ],
@@ -817,7 +821,7 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '要温柔，要可爱，要美好。',
               className: 'teams0-content',
             },
             {
@@ -831,7 +835,7 @@ export const Teams00DataSource = {
             },
             {
               name: 'content2',
-              children: '公司+职位 信息暂缺',
+              children: '软工1703-前端攻城狮',
               className: 'teams0-content',
             },
           ],
@@ -852,7 +856,7 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '必须洗净一切往事，否则你永远无法清楚自由地看这个世界。',
               className: 'teams0-content',
             },
             {
@@ -866,7 +870,7 @@ export const Teams00DataSource = {
             },
             {
               name: 'content2',
-              children: '公司+职位 信息暂缺',
+              children: '资环18地信01-美工设计师',
               className: 'teams0-content',
             },
           ],
@@ -887,7 +891,13 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '',
+              className: 'teams0-content',
+            },
+            {
+              name: 'content',
+              children:
+                  '单身，待撩。单身，待撩。单身，待撩。单身，待撩。单身，待撩。单身，待撩。',
               className: 'teams0-content',
             },
             {
@@ -901,7 +911,7 @@ export const Teams00DataSource = {
             },
             {
               name: 'content2',
-              children: '公司+职位 信息暂缺',
+              children: '软工1703-后端攻城狮',
               className: 'teams0-content',
             },
           ],
@@ -934,7 +944,7 @@ export const Footer10DataSource = {
               name: 'content0',
               children: (
                 <>
-                  <p>iCube for ZeroCup</p>
+                  <p>iCube.fun for ZeroCup</p>
                   <p>All Rights Reserved</p>
                 </>
               ),
@@ -947,13 +957,13 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '产品' },
+        title: { children: '跟着大佬学AI' },
         childWrapper: {
           children: [
-            { name: 'link0', href: '#', children: '产品更新记录' },
-            { name: 'link1', href: '#', children: 'API文档' },
-            { name: 'link2', href: '#', children: '快速入门' },
-            { name: 'link3', href: '#', children: '参考指南' },
+            { href: '"https://ai.google/education', name: 'link0', children: 'Google AI\n' },
+            { href: 'https://aistudio.baidu.com/aistudio/index', name: 'link1', children: 'AI Studio\n' },
+            { href: 'https://aischool.microsoft.com/en-us/home', name: 'link2', children: 'AI School - Microsoft\n· ' },
+            { href: 'https://github.com/search?q=Ai', name: 'link3', children: 'GitHub\n' },
           ],
         },
       },
@@ -962,11 +972,10 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '关于' },
+        title: { children: '关于我们' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
+            { href: '#', name: 'link1', children: 'Team.iCube.fun' },
           ],
         },
       },
@@ -975,11 +984,13 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '资源' },
+        title: { children: '开发者' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
+            { href: 'https://developer.microsoft.com/en-us/windows', name: 'link0', children: 'Windows Dev Center\n' },
+            { href: 'https://stackoverflow.com/', name: 'link1', children: 'Stack Overflow\n' },
+            { href:'https://developer.microsoft.com/en-us/store/register', name: 'link2',children:'Microsoft developer program\n'},
+            { href:'https://visualstudio.microsoft.com/zh-hans/?rr=https%3A%2F%2Faischool.microsoft.com%2Fen-us%2Fhome', name:'link3',children: 'Microsoft Visual Studio\n'},
           ],
         },
       },
