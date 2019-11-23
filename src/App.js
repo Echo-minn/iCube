@@ -6,6 +6,8 @@ import Header from './Layout/Nav0';
 import Footer from './Layout/Footer1';
 import Home from './Home';
 import AIResearch from './AIResearch';
+import AILab from './AILab/AILab';
+import AIPaper from './AIPaper';
 
 import {
   Nav00DataSource,
@@ -37,6 +39,8 @@ class App extends Component{
             <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
             <Route exact path="/" component={Home} />
             <Route exact path="/AIResearch" component={AIResearch}/>
+            <Route exact path="/AILab" component={AILab}/>
+            <Route exact path="/AIPaper" component={AIPaper}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
         </Router>

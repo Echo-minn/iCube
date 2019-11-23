@@ -5,7 +5,7 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'src/imgs/logo2.png',
+    children: 'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/logo2.png',
   },
   Menu: {
     className: 'header0-menu',
@@ -31,7 +31,7 @@ export const Nav00DataSource = {
         name: 'item0',
         className: 'header0-item',
         children: {
-          href: '#',
+          href: '/AILab',
           children: [
             {
               children: (
@@ -105,7 +105,7 @@ export const Nav00DataSource = {
             {
               children: (
                 <>
-                  <p>AI News</p>
+                  <p>AI Papers</p>
                 </>
               ),
               name: 'text',
@@ -134,12 +134,12 @@ export const Nav00DataSource = {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href: '#',
+          href: '/AIPaper',
           children: [
             {
               children: (
                 <>
-                  <p>AI Classes</p>
+                  <p>AI Papers</p>
                 </>
               ),
               name: 'text',
@@ -285,7 +285,7 @@ export const Content00DataSource = {
               className: 'content0-block-title',
               children: (
                 <>
-                  <p>AI News</p>
+                  <p>AI Research</p>
                 </>
               ),
             },
@@ -661,7 +661,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/%E5%9C%862%281%29.png',
           },
           icon: {
             className: 'block-icon',
@@ -686,7 +686,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/%E5%9C%861.png',
           },
           icon: {
             className: 'block-icon',
@@ -715,7 +715,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/%E5%9C%863.png',
           },
           icon: {
             className: 'block-icon',
@@ -744,7 +744,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/%E5%9C%864.png',
           },
           icon: {
             className: 'block-icon',
