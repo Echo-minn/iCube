@@ -40,8 +40,12 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_2.jpeg',
+            href:'https://bair.berkeley.edu/',
           },
-          content: { children: '伯克利人工智能研究室（BAIR）' },
+          content: {
+            children: '伯克利人工智能研究室（BAIR）' ,
+            href:'https://bair.berkeley.edu/',
+          },
         },
       },
       {
@@ -54,8 +58,9 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_4.jpeg',
+            href: 'http://www.csail.mit.edu/',
           },
-          content: { children: 'MIT计算机科学与人工智能实验室' },
+          content: { children: 'MIT计算机科学与人工智能实验室' ,href: 'http://www.csail.mit.edu/'},
         },
       },
       {
@@ -68,8 +73,9 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_6.png',
+            href:'https://ai.stanford.edu/',
           },
-          content: { children: '斯坦福大学人工智能实验室（SAIL）' },
+          content: { children: '斯坦福大学人工智能实验室（SAIL）' ,href:'https://ai.stanford.edu/'},
         },
       },
       {
@@ -82,8 +88,9 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_8.png',
+            href:'http://education.rec.ri.cmu.edu/',
           },
-          content: { children: '卡内基梅隆大学机器人学院（CMRA）' },
+          content: { children: '卡内基梅隆大学机器人学院（CMRA）' ,href:'http://education.rec.ri.cmu.edu/'},
         },
       },
       {
@@ -96,8 +103,9 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_9.png',
+            href:'https://mila.quebec/',
           },
-          content: { children: '蒙特利尔大学机器学习研究所（MILA）' },
+          content: { children: '蒙特利尔大学机器学习研究所（MILA）',href:'https://mila.quebec/' },
         },
       },
       {
@@ -110,8 +118,10 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_11.jpeg',
+            href:
+            'http://www.lcfi.ac.uk/',
           },
-          content: { children: '剑桥大学未来智能研究中心' },
+          content: { children: '剑桥大学未来智能研究中心' , href:'http://www.lcfi.ac.uk/'},
         },
       },
       {
@@ -124,8 +134,10 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_12.jpeg',
+            href:
+            'https://www.ethz.ch/de.html',
           },
-          content: { children: '苏黎世联邦理工学院' },
+          content: { children: '苏黎世联邦理工学院',href:'https://www.ethz.ch/de.html' },
         },
       },
       {
@@ -188,7 +200,7 @@ export const Teams10DataSource = {
               name: 'content1',
               className: 'teams1-content',
               children:
-                'Google X实验室的创始人Yoky Matsuoka可谓一枚科技界的传奇女子，她毕业于加州大学伯克利分校，之后在麻省理工学院获得电气工程博士学位，2009年加入谷歌并帮助创立了Google X实验室。由于她在神经科学及机器人技术领域作出的贡献，她曾获得麦克阿瑟基金会等组织颁发的多个奖项，是科技界为数不多的女性牛人大咖之一。',
+                'Google X实验室的创始人Yoky Matsuoka可谓科技界的传奇女子，她毕业于加州大学伯克利分校，之后在MIT获得电气工程博士学位，2009年加入谷歌并创立了Google X实验室。由于她在神经科学及机器人技术领域作出的贡献，她获得麦克阿瑟基金会等组织颁发的多个奖项，是科技界为数不多的女性牛人大咖之一。',
             },
           ],
         },

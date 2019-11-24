@@ -1,5 +1,6 @@
 import React from 'react';
 const url_video = 'https://couseraccess.oss-cn-beijing.aliyuncs.com/videos/%5B%E9%AB%98%E6%B8%85%201080P%5D%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%88Machine%20Learning%EF%BC%89-%20%E5%90%B4%E6%81%A9%E8%BE%BE%EF%BC%88Andrew%20Ng%EF%BC%89_P2_1%20-%202%20-%20Welcome%E3%80%90%E4%B8%AD%E8%8B%B1%E3%80%91.mp4';
+const url_video_cover = '../imgs/video.png';
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -330,7 +331,7 @@ export const Content40DataSource = {
     className: 'content4-video',
     children: {
       video: url_video,
-      image: 'src/imgs/video.png',
+      image: url_video_cover,
     },
   },
 };
@@ -473,6 +474,62 @@ export const Content50DataSource = {
           content: { children: '陆奇首批YC中国门徒：包鱼塘、搞汽配、画动漫…都用AI' },
         },
       },
+      {
+         name: 'block8',
+         className: 'block',
+         md: 6,
+         xs: 24,
+         children: {
+           wrapper: { className: 'content5-block-content' },
+             img: {
+               children:
+                'https://www.qbitai.com/wp-content/uploads/2019/11/-2019-11-22-下午2.01.56-e1574402877698.png',
+             },
+           content: { children: 'Keras更新：在模型内部就能实现文本预处理' },
+          },
+      },
+      {
+          name: 'block9',
+          className: 'block',
+          md: 6,
+          xs: 24,
+          children: {
+              wrapper: { className: 'content5-block-content' },
+              img: {
+                  children:
+                      'https://www.qbitai.com/wp-content/uploads/2019/11/mlperf-e1573446681752.png',
+              },
+              content: { children: 'MLPerf发布首个AI芯片推理测试排行榜：阿里平头哥含光800获得多项第一' },
+          },
+      },
+      {
+          name: 'block10',
+          className: 'block',
+          md: 6,
+          xs: 24,
+          children: {
+              wrapper: { className: 'content5-block-content' },
+              img: {
+                  children:
+                      'https://www.qbitai.com/wp-content/uploads/2019/11/-2019-11-06-上午10.47.30-e1573008476685.png',
+              },
+              content: { children: '自动驾驶汽车加入“第六感”，MIT用AI预测在路口被撞风险，事故率降低7成以上' },
+          },
+      },
+      {
+        name:'block11',
+        className:'block',
+        md: 6,
+        xs: 24,
+        children: {
+            wrapper: { className: 'content5-block-content' },
+            img: {
+              children:
+              'https://www.qbitai.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-04-at-3.30.22-PM.png',
+            },
+            content: { children: '81页计算机视觉学习指南，事无巨细，助你从萌新长成老司机' },
+        },
+      },
     ],
   },
 };
@@ -487,10 +544,11 @@ export const Content30DataSource = {
         name: 'title',
         children: (
           <>
-            <p>AI Lab</p>
+              <h1><b>AI Lab</b></h1>
           </>
         ),
         className: 'title-h1',
+        href:'/AILab',
       },
       {
         name: 'content',
@@ -514,11 +572,11 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '企业资源管理' },
+          title: { className: 'content3-title', children: '图像分析' },
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+              '你不用知道所有事，我们可以帮你识别。',
           },
         },
       },
@@ -534,11 +592,11 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云安全' },
+          title: { className: 'content3-title', children: '图像处理' },
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+              '我也可以有梵高梦。',
           },
         },
       },
@@ -554,11 +612,11 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云监控' },
+          title: { className: 'content3-title', children: '颜值打分' },
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+              '你的美丽只有我知道。',
           },
         },
       },
@@ -574,7 +632,7 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '移动' },
+          title: { className: 'content3-title', children: '语音识别' },
           content: {
             className: 'content3-content',
             children:
@@ -594,7 +652,7 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '分布式中间件' },
+          title: { className: 'content3-title', children: '强化学习' },
           content: {
             className: 'content3-content',
             children:
@@ -614,7 +672,7 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '大数据' },
+          title: { className: 'content3-title', children: '机器学习' },
           content: {
             className: 'content3-content',
             children:

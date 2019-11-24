@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c6c2c812-9c94-4101-a3ca-45c26a6f9910" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AIResearch/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIResearch/data.source.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/data.source.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/video/Machine Learning-Andrew Ng.flv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AIResearch/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="338">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -59,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3406">
+            <state relative-caret-position="233">
               <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -70,79 +62,80 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10634">
-              <caret line="509" column="19" selection-start-line="509" selection-start-column="19" selection-end-line="509" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="515" column="41" lean-forward="true" selection-start-line="515" selection-start-column="41" selection-end-line="515" selection-end-column="41" />
               <folding>
+                <element signature="e#370#3986#0" />
                 <element signature="e#655#984#0" />
                 <element signature="e#992#2882#0" />
                 <element signature="e#2890#3229#0" />
+                <element signature="e#9212#9651#0" />
+                <element signature="e#9659#10072#0" />
+                <element signature="e#10080#10495#0" />
+                <element signature="e#10503#10911#0" />
+                <element signature="e#10919#11341#0" />
+                <element signature="e#11349#11740#0" />
+                <element signature="e#11748#12143#0" />
+                <element signature="e#14581#14960#0" />
+                <element signature="e#15036#15596#0" />
+                <element signature="e#15604#16155#0" />
+                <element signature="e#16163#16715#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIPaper/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Home/Content3.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/Teams1.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="-1">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#Content3#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+            <state relative-caret-position="137">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#54#80#0" expanded="true" />
-                <element signature="e#690#709#0" />
                 <element signature="e#816#929#0" />
                 <element signature="e#953#1816#0" />
                 <element signature="e#1861#2004#0" />
                 <element signature="e#2012#2159#0" />
                 <element signature="e#2167#2314#0" />
                 <element signature="e#2322#2469#0" />
+                <element signature="e#2636#2783#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6240">
-              <caret line="240" column="32" selection-start-line="240" selection-start-column="32" selection-end-line="240" selection-end-column="32" />
+            <state relative-caret-position="151">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#4299#4423#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,18 +178,19 @@
         <option value="$PROJECT_DIR$/src/AINews/data.source.js" />
         <option value="$PROJECT_DIR$/src/AIResearch/Teams1.jsx" />
         <option value="$PROJECT_DIR$/src/AIResearch/index.jsx" />
-        <option value="$PROJECT_DIR$/src/AIResearch/data.source.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/AIPaper/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Home/data.source.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" />
         <option value="$PROJECT_DIR$/src/Home/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Home/data.source.js" />
+        <option value="$PROJECT_DIR$/src/AIResearch/data.source.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="35" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +216,12 @@
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
               <item name="iCube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +290,8 @@
       <workItem from="1574245827504" duration="1313000" />
       <workItem from="1574489364464" duration="16948000" />
       <workItem from="1574508771824" duration="1201000" />
-      <workItem from="1574510341960" duration="241000" />
+      <workItem from="1574510341960" duration="1614000" />
+      <workItem from="1574557241645" duration="3822000" />
     </task>
     <task id="LOCAL-00001" summary="Home page demo">
       <created>1574086587160</created>
@@ -365,20 +360,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63352000" />
+    <option name="totallyTimeSpent" value="68547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22075348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.17893218" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24675325" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -386,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13564214" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4906205" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -409,9 +404,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Demo/Home.css" />
     <entry file="file://$PROJECT_DIR$/src/Demo/Home.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Demo/moveBanner.js" />
     <entry file="file://$PROJECT_DIR$/src/Demo/moveBanner.css" />
     <entry file="file://$PROJECT_DIR$/src/Home/less/custom.less">
@@ -571,62 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#App#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#App#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-            <element signature="e#397#416#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3406">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#1771#1965#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10634">
-          <caret line="509" column="19" selection-start-line="509" selection-start-column="19" selection-end-line="509" selection-end-column="19" />
-          <folding>
-            <element signature="e#655#984#0" />
-            <element signature="e#992#2882#0" />
-            <element signature="e#2890#3229#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIPaper/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AIResearch/Teams1.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -646,27 +582,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
+    <entry file="file://$PROJECT_DIR$/src/AIPaper/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6240">
-          <caret line="240" column="32" selection-start-line="240" selection-start-column="32" selection-end-line="240" selection-end-column="32" />
+        <state relative-caret-position="234">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#App#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#App#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1771#1965#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/Content3.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#Content3#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+        <state relative-caret-position="137">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#54#80#0" expanded="true" />
-            <element signature="e#690#709#0" />
             <element signature="e#816#929#0" />
             <element signature="e#953#1816#0" />
             <element signature="e#1861#2004#0" />
             <element signature="e#2012#2159#0" />
             <element signature="e#2167#2314#0" />
             <element signature="e#2322#2469#0" />
+            <element signature="e#2636#2783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#54#80#0" expanded="true" />
+            <element signature="e#397#416#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="515" column="41" lean-forward="true" selection-start-line="515" selection-start-column="41" selection-end-line="515" selection-end-column="41" />
+          <folding>
+            <element signature="e#370#3986#0" />
+            <element signature="e#655#984#0" />
+            <element signature="e#992#2882#0" />
+            <element signature="e#2890#3229#0" />
+            <element signature="e#9212#9651#0" />
+            <element signature="e#9659#10072#0" />
+            <element signature="e#10080#10495#0" />
+            <element signature="e#10503#10911#0" />
+            <element signature="e#10919#11341#0" />
+            <element signature="e#11349#11740#0" />
+            <element signature="e#11748#12143#0" />
+            <element signature="e#14581#14960#0" />
+            <element signature="e#15036#15596#0" />
+            <element signature="e#15604#16155#0" />
+            <element signature="e#16163#16715#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#4299#4423#0" />
           </folding>
         </state>
       </provider>

@@ -101,6 +101,12 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+        />,
       <Content9
         id="Content9_0"
         key="Content9_0"
