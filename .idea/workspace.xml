@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c2c812-9c94-4101-a3ca-45c26a6f9910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AIResearch/Content5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIResearch/Content5.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AIResearch/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIResearch/data.source.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/data.source.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/video/Machine Learning-Andrew Ng.flv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,19 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!block;n#constructor#0;n#App#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#App#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AIResearch/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -43,19 +25,6 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#54#80#0" expanded="true" />
                 <element signature="e#397#416#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#1771#1965#0" />
               </folding>
             </state>
           </provider>
@@ -73,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="515" column="41" lean-forward="true" selection-start-line="515" selection-start-column="41" selection-end-line="515" selection-end-column="41" />
+            <state relative-caret-position="638">
+              <caret line="558" column="4" lean-forward="true" selection-start-line="558" selection-start-column="4" selection-end-line="558" selection-end-column="4" />
               <folding>
                 <element signature="e#370#3986#0" />
                 <element signature="e#655#984#0" />
@@ -87,7 +56,6 @@
                 <element signature="e#10919#11341#0" />
                 <element signature="e#11349#11740#0" />
                 <element signature="e#11748#12143#0" />
-                <element signature="e#14581#14960#0" />
                 <element signature="e#15036#15596#0" />
                 <element signature="e#15604#16155#0" />
                 <element signature="e#16163#16715#0" />
@@ -106,6 +74,23 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AIResearch/less/content5.less">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -128,14 +113,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="331">
+              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
               <folding>
+                <element signature="e#1267#1458#0" />
                 <element signature="e#4299#4423#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AIPaper/Content5.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AIPaper/data.source.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -184,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/Home/index.jsx" />
         <option value="$PROJECT_DIR$/src/Home/data.source.js" />
         <option value="$PROJECT_DIR$/src/AIResearch/data.source.js" />
+        <option value="$PROJECT_DIR$/src/AIResearch/Content5.jsx" />
       </list>
     </option>
   </component>
@@ -211,6 +218,19 @@
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
               <item name="iCube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AIResearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AIResearch" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +311,7 @@
       <workItem from="1574489364464" duration="16948000" />
       <workItem from="1574508771824" duration="1201000" />
       <workItem from="1574510341960" duration="1614000" />
-      <workItem from="1574557241645" duration="3822000" />
+      <workItem from="1574557241645" duration="5110000" />
     </task>
     <task id="LOCAL-00001" summary="Home page demo">
       <created>1574086587160</created>
@@ -360,20 +380,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68547000" />
+    <option name="totallyTimeSpent" value="69835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24675325" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.28282827" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -381,7 +401,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4906205" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.09090909" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -573,15 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AIPaper/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -670,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="515" column="41" lean-forward="true" selection-start-line="515" selection-start-column="41" selection-end-line="515" selection-end-column="41" />
+        <state relative-caret-position="638">
+          <caret line="558" column="4" lean-forward="true" selection-start-line="558" selection-start-column="4" selection-end-line="558" selection-end-column="4" />
           <folding>
             <element signature="e#370#3986#0" />
             <element signature="e#655#984#0" />
@@ -684,7 +695,6 @@
             <element signature="e#10919#11341#0" />
             <element signature="e#11349#11740#0" />
             <element signature="e#11748#12143#0" />
-            <element signature="e#14581#14960#0" />
             <element signature="e#15036#15596#0" />
             <element signature="e#15604#16155#0" />
             <element signature="e#16163#16715#0" />
@@ -692,12 +702,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIPaper/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/less/content5.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIPaper/Content5.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="331">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding>
+            <element signature="e#1267#1458#0" />
             <element signature="e#4299#4423#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

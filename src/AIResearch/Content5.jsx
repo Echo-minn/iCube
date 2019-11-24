@@ -13,7 +13,7 @@ class Content5 extends React.PureComponent {
             <span {...item.children.img}>
               <img src={item.children.img.children} height="100%" alt="img" />
             </span>
-            <p {...item.children.content}>{item.children.content.children}</p>
+            <a {...item.children.content} href={item.children.content.href}>{item.children.content.children}</a>
           </div>
         </Col>
       );

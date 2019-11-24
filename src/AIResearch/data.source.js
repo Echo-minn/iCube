@@ -33,6 +33,7 @@ export const Content50DataSource = {
       {
         name: 'block0',
         className: 'block',
+        href:'https://bair.berkeley.edu/',
         md: 6,
         xs: 24,
         children: {
@@ -45,6 +46,13 @@ export const Content50DataSource = {
           content: {
             children: '伯克利人工智能研究室（BAIR）' ,
             href:'https://bair.berkeley.edu/',
+            /*children: (
+                <>
+                  <a href="https://bair.berkeley.edu/">
+                    伯克利人工智能研究室（BAIR）&nbsp;
+                  </a>
+                </>
+            ),*/
           },
         },
       },
@@ -58,9 +66,8 @@ export const Content50DataSource = {
           img: {
             children:
               'https://03.imgmini.eastday.com/mobile/20180730/20180730211834_e1748c77d4660806d07e375135c47f44_4.jpeg',
-            href: 'http://www.csail.mit.edu/',
           },
-          content: { children: 'MIT计算机科学与人工智能实验室' ,href: 'http://www.csail.mit.edu/'},
+          content: { children: 'MIT计算机科学与人工智能实验室' ,href: "http://www.csail.mit.edu/"},
         },
       },
       {
