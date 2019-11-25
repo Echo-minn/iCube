@@ -10,6 +10,7 @@ import AILab from './AILab/AILab';
 import AIPaper from './AIPaper';
 import News0 from './AINews/news0';
 import iTeam from './iTeam';
+import Login from './user/login';
 
 import {
   Nav00DataSource,
@@ -49,6 +50,7 @@ class App extends Component{
             <Route exact path="/AIPaper" component={AIPaper}/>
             <Route exact path="/AINews/News0" component={News0}/>
             <Route exact path="/iTeam" component={iTeam}/>
+            <Route exact path="/Login" component={Login}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
         </Router>
