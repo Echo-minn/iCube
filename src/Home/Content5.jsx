@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { getChildrenToRender } from './utils';
+import '../App.css';
 
 class Content5 extends React.PureComponent {
   getChildrenToRender = (data) =>
@@ -13,7 +14,7 @@ class Content5 extends React.PureComponent {
             <span {...item.children.img}>
               <img src={item.children.img.children} height="100%" alt="img" />
             </span>
-            <p {...item.children.content}>{item.children.content.children}</p>
+            <a {...item.children.content} href={item.children.href} className="App-link">{item.children.content.children}</a>
           </div>
         </Col>
       );

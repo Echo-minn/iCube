@@ -46,13 +46,6 @@ export const Content50DataSource = {
           content: {
             children: '伯克利人工智能研究室（BAIR）' ,
             href:'https://bair.berkeley.edu/',
-            /*children: (
-                <>
-                  <a href="https://bair.berkeley.edu/">
-                    伯克利人工智能研究室（BAIR）&nbsp;
-                  </a>
-                </>
-            ),*/
           },
         },
       },

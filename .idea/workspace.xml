@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c2c812-9c94-4101-a3ca-45c26a6f9910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AIResearch/Content5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIResearch/Content5.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataAPI/fetchData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AINews/news0.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/Content0.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/Content0.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/data.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AINews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AINews/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AIResearch/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIResearch/data.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Banner0.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Banner0.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Content5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Content5.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/data.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/less/content3.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/less/content3.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Nav0.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Nav0.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/icube_application_article.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,70 +32,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#54#80#0" expanded="true" />
-                <element signature="e#397#416#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="558" column="4" lean-forward="true" selection-start-line="558" selection-start-column="4" selection-end-line="558" selection-end-column="4" />
+            <state relative-caret-position="6370">
+              <caret line="1065" column="14" lean-forward="true" selection-start-line="1065" selection-start-column="14" selection-end-line="1065" selection-end-column="14" />
               <folding>
-                <element signature="e#370#3986#0" />
-                <element signature="e#655#984#0" />
-                <element signature="e#992#2882#0" />
-                <element signature="e#2890#3229#0" />
-                <element signature="e#9212#9651#0" />
-                <element signature="e#9659#10072#0" />
-                <element signature="e#10080#10495#0" />
-                <element signature="e#10503#10911#0" />
-                <element signature="e#10919#11341#0" />
-                <element signature="e#11349#11740#0" />
-                <element signature="e#11748#12143#0" />
-                <element signature="e#15036#15596#0" />
-                <element signature="e#15604#16155#0" />
-                <element signature="e#16163#16715#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/Content3.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#Content3#0" />
+                <element signature="e#4067#4765#0" />
+                <element signature="e#4802#7918#0" />
+                <element signature="e#7955#8611#0" />
+                <element signature="e#8648#14416#0" />
+                <element signature="e#14453#18784#0" />
+                <element signature="e#18821#23941#0" />
+                <element signature="e#23976#28162#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Layout/Footer1.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="267">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -89,47 +62,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/less/content5.less">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+              <folding>
+                <element signature="e#1#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#640#1980#0" />
+                <element signature="e#720#1747#0" />
+                <element signature="e#1771#1965#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AILab/AILab/data.source.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#570#1402#0" />
+                <element signature="e#1410#2243#0" />
+                <element signature="e#2251#3084#0" />
+                <element signature="e#3134#6849#0" />
+                <element signature="e#6884#10551#0" />
+                <element signature="e#10586#12402#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Content0.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state relative-caret-position="104">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#54#80#0" expanded="true" />
                 <element signature="e#816#929#0" />
                 <element signature="e#953#1816#0" />
                 <element signature="e#1861#2004#0" />
                 <element signature="e#2012#2159#0" />
                 <element signature="e#2167#2314#0" />
                 <element signature="e#2322#2469#0" />
-                <element signature="e#2636#2783#0" />
+                <element signature="e#2477#2626#0" />
+                <element signature="e#2634#2781#0" />
+                <element signature="e#2789#2928#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
+        <entry file="file://$PROJECT_DIR$/src/Home/Banner0.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-              <folding>
-                <element signature="e#1267#1458#0" />
-                <element signature="e#4299#4423#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIPaper/Content5.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
+            <state relative-caret-position="308">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -138,12 +151,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AIPaper/data.source.js">
+        <entry file="file://$PROJECT_DIR$/src/Home/less/banner0.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="208">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home/less/common.less">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -152,8 +170,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -168,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/Home/moveBanner.js" />
         <option value="$PROJECT_DIR$/src/Home/moveBanner.css" />
         <option value="$PROJECT_DIR$/config-overrides.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Home/less/custom.less" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/AIResearch/less/edit.less" />
@@ -184,20 +201,34 @@
         <option value="$PROJECT_DIR$/src/AINews/data.source.js" />
         <option value="$PROJECT_DIR$/src/AIResearch/Teams1.jsx" />
         <option value="$PROJECT_DIR$/src/AIResearch/index.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/AIPaper/index.jsx" />
         <option value="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" />
         <option value="$PROJECT_DIR$/src/Home/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Home/data.source.js" />
-        <option value="$PROJECT_DIR$/src/AIResearch/data.source.js" />
         <option value="$PROJECT_DIR$/src/AIResearch/Content5.jsx" />
+        <option value="$PROJECT_DIR$/src/AIResearch/data.source.js" />
+        <option value="$PROJECT_DIR$/src/Home/less/content3.less" />
+        <option value="$PROJECT_DIR$/src/AINews/index.jsx" />
+        <option value="$PROJECT_DIR$/mock/data.json" />
+        <option value="$PROJECT_DIR$/dataAPI/fetchData.js" />
+        <option value="$PROJECT_DIR$/src/AINews/news0.jsx" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Home/Content5.jsx" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/data.source.js" />
+        <option value="$PROJECT_DIR$/src/Home/less/banner0.less" />
+        <option value="$PROJECT_DIR$/src/Home/Banner0.jsx" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/Content0.jsx" />
+        <option value="$PROJECT_DIR$/src/Home/data.source.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Layout/Nav0.jsx" />
+        <option value="$PROJECT_DIR$/src/Layout/Footer1.jsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="35" />
-    <option name="width" value="980" />
+    <option name="width" value="979" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,20 +254,13 @@
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
               <item name="iCube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AIResearch" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
               <item name="iCube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AIResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iCube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,8 +273,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,7 +338,13 @@
       <workItem from="1574489364464" duration="16948000" />
       <workItem from="1574508771824" duration="1201000" />
       <workItem from="1574510341960" duration="1614000" />
-      <workItem from="1574557241645" duration="5110000" />
+      <workItem from="1574557241645" duration="7072000" />
+      <workItem from="1574565158367" duration="1348000" />
+      <workItem from="1574579291668" duration="7000" />
+      <workItem from="1574579403074" duration="353000" />
+      <workItem from="1574580301336" duration="6720000" />
+      <workItem from="1574590092830" duration="797000" />
+      <workItem from="1574665456824" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="Home page demo">
       <created>1574086587160</created>
@@ -380,20 +413,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69835000" />
+    <option name="totallyTimeSpent" value="85205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20026438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.28282827" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2106782" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -401,12 +434,34 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.09090909" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35064936" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590879" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33044732" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32262772" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -422,34 +477,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ai research" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Demo/Home.css" />
-    <entry file="file://$PROJECT_DIR$/src/Demo/Home.js" />
-    <entry file="file://$PROJECT_DIR$/src/Demo/moveBanner.js" />
-    <entry file="file://$PROJECT_DIR$/src/Demo/moveBanner.css" />
-    <entry file="file://$PROJECT_DIR$/src/Home/less/custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/less/edit.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/Nav2.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/Footer1.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/imgs/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/AINews/less/edit.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -462,19 +489,6 @@
     <entry file="file://$PROJECT_DIR$/src/Services/news.ts" />
     <entry file="file://$PROJECT_DIR$/src/Services/paper.ts" />
     <entry file="file://$PROJECT_DIR$/src/Config/config.js" />
-    <entry file="file://$PROJECT_DIR$/src/Home/Banner0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#404#1474#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AINews/Feature5.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -483,13 +497,6 @@
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#Content7#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/edit.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -526,57 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/footer1.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#scripts#0;n#!!top" />
-            <element signature="n#!!block;n#eslintConfig#0;n#!!top" />
-            <element signature="n#!!block;n#browserslist#0;n#!!top" />
-            <element signature="e#798#862#0" />
-            <element signature="e#883#983#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Layout/Footer1.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1118">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Content4.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-777">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AINews/data.source.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="307" column="28" lean-forward="true" selection-start-line="307" selection-start-column="28" selection-end-line="307" selection-end-column="28" />
-          <folding>
-            <element signature="e#4505#4918#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -603,17 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#App#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#App#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -621,49 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#1771#1965#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Content3.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#Content3#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-            <element signature="e#816#929#0" />
-            <element signature="e#953#1816#0" />
-            <element signature="e#1861#2004#0" />
-            <element signature="e#2012#2159#0" />
-            <element signature="e#2167#2314#0" />
-            <element signature="e#2322#2469#0" />
-            <element signature="e#2636#2783#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,63 +589,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
+    <entry file="file://$PROJECT_DIR$/src/Home/Content3.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="558" column="4" lean-forward="true" selection-start-line="558" selection-start-column="4" selection-end-line="558" selection-end-column="4" />
+        <state>
           <folding>
-            <element signature="e#370#3986#0" />
-            <element signature="e#655#984#0" />
-            <element signature="e#992#2882#0" />
-            <element signature="e#2890#3229#0" />
-            <element signature="e#9212#9651#0" />
-            <element signature="e#9659#10072#0" />
-            <element signature="e#10080#10495#0" />
-            <element signature="e#10503#10911#0" />
-            <element signature="e#10919#11341#0" />
-            <element signature="e#11349#11740#0" />
-            <element signature="e#11748#12143#0" />
-            <element signature="e#15036#15596#0" />
-            <element signature="e#15604#16155#0" />
-            <element signature="e#16163#16715#0" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#Content3#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIPaper/data.source.js">
+    <entry file="file://$PROJECT_DIR$/src/Home/less/content3.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="910">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/less/content5.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIPaper/Content5.jsx">
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
+        <state relative-caret-position="156">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/less/content5.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AINews/data.source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="7410">
+          <caret line="307" column="28" selection-start-line="307" selection-start-column="28" selection-end-line="307" selection-end-column="28" />
           <folding>
-            <element signature="e#1267#1458#0" />
-            <element signature="e#4299#4423#0" />
+            <element signature="e#4505#4918#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIResearch/Content5.jsx">
+    <entry file="file://$PROJECT_DIR$/src/AIResearch/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIPaper/Content5.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIPaper/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAPI/fetchData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AINews/news0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AINews/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1481">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#401#420#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/edit.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/nav0.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/footer1.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/content5.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/teams0.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/antMotionStyle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/common.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#816#929#0" />
+            <element signature="e#953#1816#0" />
+            <element signature="e#1861#2004#0" />
+            <element signature="e#2012#2159#0" />
+            <element signature="e#2167#2314#0" />
+            <element signature="e#2322#2469#0" />
+            <element signature="e#2477#2626#0" />
+            <element signature="e#2634#2781#0" />
+            <element signature="e#2789#2928#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/less/banner0.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/Banner0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/Content0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#570#1402#0" />
+            <element signature="e#1410#2243#0" />
+            <element signature="e#2251#3084#0" />
+            <element signature="e#3134#6849#0" />
+            <element signature="e#6884#10551#0" />
+            <element signature="e#10586#12402#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/Content5.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6370">
+          <caret line="1065" column="14" lean-forward="true" selection-start-line="1065" selection-start-column="14" selection-end-line="1065" selection-end-column="14" />
+          <folding>
+            <element signature="e#4067#4765#0" />
+            <element signature="e#4802#7918#0" />
+            <element signature="e#7955#8611#0" />
+            <element signature="e#8648#14416#0" />
+            <element signature="e#14453#18784#0" />
+            <element signature="e#18821#23941#0" />
+            <element signature="e#23976#28162#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layout/Nav0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#640#1980#0" />
+            <element signature="e#720#1747#0" />
+            <element signature="e#1771#1965#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layout/Footer1.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

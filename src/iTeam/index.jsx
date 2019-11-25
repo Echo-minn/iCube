@@ -2,16 +2,10 @@
 /* eslint arrow-parens: 0 */
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
-
+import scrollScreen from 'rc-scroll-anim/lib/ScrollScreen';
 import Feature5 from './Feature5';
-import Feature7 from './Feature7';
-import Teams0 from './Teams0';
 
-import {
-  Feature50DataSource,
-  Feature70DataSource,
-  Teams00DataSource,
-} from './data.source';
+import { Feature50DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -21,7 +15,7 @@ enquireScreen((b) => {
 
 const { location } = window;
 
-export default class AINews extends React.Component {
+export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,6 +25,10 @@ export default class AINews extends React.Component {
   }
 
   componentDidMount() {
+    /* 如果不是 dva 2.0 请使用以下代码
+    // 实现整屏滚动
+    scrollScreen.init({ location: ['Feature5_0'] });
+    */
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
@@ -43,6 +41,8 @@ export default class AINews extends React.Component {
         this.setState({
           show: true,
         });
+        // 实现整屏滚动
+        scrollScreen.init({ location: ['Feature5_0'] });
       }, 500);
     }
     /* 如果不是 dva 2.0 请删除 end */
@@ -54,18 +54,6 @@ export default class AINews extends React.Component {
         id="Feature5_0"
         key="Feature5_0"
         dataSource={Feature50DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature7
-        id="Feature7_0"
-        key="Feature7_0"
-        dataSource={Feature70DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Teams0
-        id="Teams0_0"
-        key="Teams0_0"
-        dataSource={Teams00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

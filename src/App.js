@@ -8,6 +8,8 @@ import Home from './Home';
 import AIResearch from './AIResearch';
 import AILab from './AILab/AILab';
 import AIPaper from './AIPaper';
+import News0 from './AINews/news0';
+import iTeam from './iTeam';
 
 import {
   Nav00DataSource,
@@ -32,6 +34,10 @@ class App extends Component{
       this.setState({isMobil: !!b});
     });
   }
+  componentWillMount() {
+
+  }
+
   render() {
     return(
         <Router>
@@ -41,6 +47,8 @@ class App extends Component{
             <Route exact path="/AIResearch" component={AIResearch}/>
             <Route exact path="/AILab" component={AILab}/>
             <Route exact path="/AIPaper" component={AIPaper}/>
+            <Route exact path="/AINews/News0" component={News0}/>
+            <Route exact path="/iTeam" component={iTeam}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
         </Router>

@@ -7,6 +7,7 @@ export const Nav00DataSource = {
   logo: {
     className: 'header0-logo',
     children: 'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/logo2.png',
+    href:"/iTeam",
   },
   Menu: {
     className: 'header0-menu',
@@ -175,7 +176,7 @@ export const Banner01DataSource = {
       </>
     ),
   },
-  button: { className: 'banner0-button', children: 'Learn More' },
+  button: { className: 'banner0-button', children: 'Learn More' ,href:"/AILab"},
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
@@ -374,6 +375,7 @@ export const Content50DataSource = {
               'https://www.qbitai.com/wp-content/uploads/2019/11/photo1535168135836-1535168135836979040191-e1574225968671.jpg',
           },
           content: { children: '谷歌大脑开源「数据增强」新招数：ImageNet准确率达85%大神Quoc出品' },
+          href:'/AINews/News0',
         },
       },
       {
@@ -993,7 +995,8 @@ export const Footer10DataSource = {
         title: {
           className: 'logo',
           children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+            'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/logo2.png',
+          href:'/iTeam',
         },
         childWrapper: {
           className: 'slogan',
@@ -1061,8 +1064,7 @@ export const Footer10DataSource = {
     children: (
       <>
         <span>
-          ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-          Reserved
+          ©2019 by <a href="/iTeam">iCube.fun</a> All Rights Reserved
         </span>
       </>
     ),

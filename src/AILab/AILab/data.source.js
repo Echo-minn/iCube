@@ -123,6 +123,7 @@ export const Content00DataSource = {
         },
       },
     ],
+    button: { className: 'banner0-button', children: '立即试试!' ,href:"/AILab"},
   },
 };
 export const Teams11DataSource = {
