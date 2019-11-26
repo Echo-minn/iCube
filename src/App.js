@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
@@ -12,6 +11,7 @@ import News0 from './AINews/news0';
 import iTeam from './iTeam';
 import LoginForm from './user/login0';
 import WrappedRegistrationForm from './user/register';
+import { BackTop } from 'antd';
 
 import {
   Nav00DataSource,
@@ -54,6 +54,12 @@ class App extends Component{
             <Route exact path="/login" component={LoginForm}/>
             <Route exact path="/register" component={WrappedRegistrationForm}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
+          </div>
+          <div>
+            <BackTop />
+            Scroll down to see the bottom-right
+            <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}> gray </strong>
+            button.
           </div>
         </Router>
     );
