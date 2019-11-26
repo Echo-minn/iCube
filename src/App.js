@@ -10,8 +10,8 @@ import AILab from './AILab/AILab';
 import AIPaper from './AIPaper';
 import News0 from './AINews/news0';
 import iTeam from './iTeam';
-import LoginForm from './user/login';
-import RegistrationForm from './user/register';
+import LoginForm from './user/login0';
+import WrappedRegistrationForm from './user/register';
 
 import {
   Nav00DataSource,
@@ -51,8 +51,8 @@ class App extends Component{
             <Route exact path="/AIPaper" component={AIPaper}/>
             <Route exact path="/AINews/News0" component={News0}/>
             <Route exact path="/iTeam" component={iTeam}/>
-            <Route exact path="/user/login" component={LoginForm}/>
-            <Route exact path="/user/register" component={RegistrationForm}/>
+            <Route exact path="/login" component={LoginForm}/>
+            <Route exact path="/register" component={WrappedRegistrationForm}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
         </Router>

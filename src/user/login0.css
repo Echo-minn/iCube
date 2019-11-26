@@ -1,5 +1,15 @@
 #components-form-demo-normal-login .login-form {
-    max-width: 300px;
+    max-width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.login-form{
+
+    margin:0px auto;
+
+}
+.padding-div{
+    height: 100px;
 }
 #components-form-demo-normal-login .login-form-forgot {
     float: right;

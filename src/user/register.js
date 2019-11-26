@@ -12,6 +12,7 @@ import {
     AutoComplete,
 } from 'antd';
 import React from 'react';
+import './login0.css';
 
 const { Option } = Select;
 const AutoCompleteOption = AutoComplete.Option;
@@ -138,7 +139,9 @@ class RegistrationForm extends React.Component {
         ));
 
         return (
-            <Form {...formItemLayout} onSubmit={this.handleSubmit}>
+            <div>
+            <Form {...formItemLayout} onSubmit={this.handleSubmit} style={{width:450}} className="login-form">
+                <h2><b>Welcome to iCube! 赶紧注册吧 :)</b></h2>
                 <Form.Item label="E-mail">
                     {getFieldDecorator('email', {
                         rules: [
@@ -204,20 +207,7 @@ class RegistrationForm extends React.Component {
                 <Form.Item label="Phone Number">
                     {getFieldDecorator('phone', {
                         rules: [{ required: true, message: 'Please input your phone number!' }],
-                    })(<Input addonBefore={prefixSelector} style={{ width: '100%' }} />)}
-                </Form.Item>
-                <Form.Item label="Website">
-                    {getFieldDecorator('website', {
-                        rules: [{ required: true, message: 'Please input website!' }],
-                    })(
-                        <AutoComplete
-                            dataSource={websiteOptions}
-                            onChange={this.handleWebsiteChange}
-                            placeholder="website"
-                        >
-                            <Input />
-                        </AutoComplete>,
-                    )}
+                    })(<Input addonBefore={prefixSelector} style={{ width: 300 }} />)}
                 </Form.Item>
                 <Form.Item label="Captcha" extra="We must make sure that your are a human.">
                     <Row gutter={8}>
@@ -246,11 +236,12 @@ class RegistrationForm extends React.Component {
                     </Button>
                 </Form.Item>
             </Form>
+            </div>
         );
     }
 }
 const WrappedRegistrationForm = Form.create({ name: 'register' })(RegistrationForm);
-export default RegistrationForm;
+export default WrappedRegistrationForm;
 
 
 
