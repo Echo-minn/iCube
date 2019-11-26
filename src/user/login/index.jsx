@@ -1,6 +1,6 @@
 import { Alert, Checkbox, Icon } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'umi/link';
 import { connect } from 'dva';
 import LoginComponents from './components/Login';
@@ -11,7 +11,7 @@ const { Tab, UserName, Password, Mobile, Captcha, Submit } = LoginComponents;
   userLogin: login,
   submitting: loading.effects['login/login'],
 }))
-class Login extends Component {
+class Login extends React.Component {
   loginForm = undefined;
   state = {
     type: 'account',
@@ -224,5 +224,6 @@ class Login extends Component {
     );
   }
 }
-
 export default Login;
+
+

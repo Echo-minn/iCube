@@ -1,0 +1,24 @@
+.p{
+    color:red;
+    margin-left:20px;
+    display:inline-block;
+}
+.c{
+    color:red;
+    margin-left:4px;
+    display:inline-block;
+}
+.l{
+    font-size:18px;
+}
+.d{
+    height:35px;
+    width:300px;
+    display:inline;
+}
+.i{
+    height:30px;
+    width:300px;
+}
+
+
