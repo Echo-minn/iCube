@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c2c812-9c94-4101-a3ca-45c26a6f9910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mock/actions/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/actions/loginAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/actions/registerAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/service/configs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/service/submitDataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/service/userServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/actions/loginAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/actions/submitDataAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/login0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/login0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/register.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,143 +25,129 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iCube" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="16" />
               <folding>
-                <element signature="e#1#42#0" expanded="true" />
-                <element signature="e#578#594#0" />
+                <element signature="e#1700#1893#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
+        <entry file="file://$PROJECT_DIR$/src/mock/service/configs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-              <folding>
-                <element signature="e#2498#3210#0" />
-                <element signature="e#3247#6363#0" />
-                <element signature="e#6400#7056#0" />
-                <element signature="e#7093#12861#0" />
-                <element signature="e#12898#17229#0" />
-                <element signature="e#17266#22386#0" />
-                <element signature="e#22421#26607#0" />
-                <element signature="e#26643#29387#0" />
-              </folding>
+            <state relative-caret-position="364">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/mock/service/userServices.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="8" selection-start-line="6" selection-end-line="6" selection-end-column="8" />
+            <state>
+              <caret selection-end-column="25" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#415#451#0" />
+                <element signature="n#!!block;n#checkLogin#0" />
+                <element signature="n#!!block;n#logout#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AINews/news0.jsx">
+        <entry file="file://$PROJECT_DIR$/src/mock/actions/registerAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="995">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="234">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user/login0.js">
+        <entry file="file://$PROJECT_DIR$/src/mock/actions/constants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="e#3132#3158#0" expanded="true" />
-                <element signature="e#489#2354#0" />
-                <element signature="e#3677#4115#0" />
-                <element signature="e#3883#4062#0" />
-                <element signature="e#4132#4614#0" />
-                <element signature="e#1634#2275#0" />
-              </folding>
+            <state relative-caret-position="364">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user/actions/loginAction.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/mock/actions/loginAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/user/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="197" column="28" lean-forward="true" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
+            <state relative-caret-position="387">
+              <caret line="97" column="17" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="97" selection-end-column="17" />
               <folding>
                 <element signature="e#0#155#0" expanded="true" />
-                <element signature="e#252#1006#0" />
-                <element signature="e#258#624#0" />
-                <element signature="e#630#1003#0" />
-                <element signature="e#1070#1138#0" />
-                <element signature="e#1165#1383#0" />
-                <element signature="e#1415#1535#0" />
-                <element signature="e#1594#1825#0" />
-                <element signature="e#1884#2069#0" />
-                <element signature="e#2107#2373#0" />
-                <element signature="e#2529#2755#0" />
-                <element signature="e#2553#2635#0" />
-                <element signature="e#2661#2744#0" />
-                <element signature="e#2792#3048#0" />
-                <element signature="e#3109#3152#0" />
-                <element signature="e#3167#3315#0" />
-                <element signature="e#3737#4299#0" />
-                <element signature="e#4166#4706#0" />
-                <element signature="e#4723#5304#0" />
-                <element signature="e#5321#5865#0" />
-                <element signature="e#5882#6308#0" />
-                <element signature="e#6375#6667#0" />
-                <element signature="e#7256#7834#0" />
-                <element signature="e#7851#8207#0" />
-                <element signature="e#8224#8413#0" />
+                <element signature="e#302#1056#0" />
+                <element signature="e#1465#1585#0" />
+                <element signature="e#1934#2119#0" />
+                <element signature="e#2579#2805#0" />
+                <element signature="e#2842#3098#0" />
+                <element signature="e#3159#3202#0" />
+                <element signature="e#3217#3365#0" />
+                <element signature="e#3583#7984#0" />
+                <element signature="e#7402#7758#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user/login0.css">
+        <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="264">
+              <caret line="442" column="11" lean-forward="true" selection-start-line="442" selection-start-column="11" selection-end-line="442" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/node_modules/antd/es/form/Form.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="200">
+              <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user/register.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/user/login0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-269">
+              <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -170,20 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Home/moveBanner.css" />
-        <option value="$PROJECT_DIR$/src/Home/less/custom.less" />
-        <option value="$PROJECT_DIR$/src/AIResearch/less/edit.less" />
-        <option value="$PROJECT_DIR$/src/Home/Nav0.jsx" />
-        <option value="$PROJECT_DIR$/src/Home/less/edit.less" />
-        <option value="$PROJECT_DIR$/src/AINews/less/edit.less" />
-        <option value="$PROJECT_DIR$/src/Services/user.ts" />
-        <option value="$PROJECT_DIR$/src/Services/api.ts" />
-        <option value="$PROJECT_DIR$/src/Services/news.ts" />
-        <option value="$PROJECT_DIR$/src/Services/paper.ts" />
-        <option value="$PROJECT_DIR$/src/Config/config.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/AINews/data.source.js" />
-        <option value="$PROJECT_DIR$/src/AIResearch/Teams1.jsx" />
         <option value="$PROJECT_DIR$/src/AIResearch/index.jsx" />
         <option value="$PROJECT_DIR$/src/AIPaper/index.jsx" />
         <option value="$PROJECT_DIR$/src/AILab/AILab/Teams1.jsx" />
@@ -217,17 +200,31 @@
         <option value="$PROJECT_DIR$/src/user/login1.css" />
         <option value="$PROJECT_DIR$/src/Home/data.source.js" />
         <option value="$PROJECT_DIR$/src/user/login0.css" />
-        <option value="$PROJECT_DIR$/src/user/register.js" />
         <option value="$PROJECT_DIR$/src/user/actions/loginAction.js" />
-        <option value="$PROJECT_DIR$/src/user/login0.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/service/configs.js" />
+        <option value="$PROJECT_DIR$/src/service/userServices.js" />
+        <option value="$PROJECT_DIR$/src/service/submitDataService.js" />
+        <option value="$PROJECT_DIR$/mock/service/configs.js" />
+        <option value="$PROJECT_DIR$/mock/service/submitDataService.js" />
+        <option value="$PROJECT_DIR$/mock/actions/loginAction.js" />
+        <option value="$PROJECT_DIR$/mock/service/userServices.js" />
+        <option value="$PROJECT_DIR$/mock/actions/constants.js" />
+        <option value="$PROJECT_DIR$/src/mock/actions/register.js" />
+        <option value="$PROJECT_DIR$/src/mock/actions/submitDataAction.js" />
+        <option value="$PROJECT_DIR$/src/mock/actions/constants.js" />
+        <option value="$PROJECT_DIR$/src/mock/actions/loginAction.js" />
+        <option value="$PROJECT_DIR$/src/mock/service/userServices.js" />
+        <option value="$PROJECT_DIR$/src/mock/service/configs.js" />
+        <option value="$PROJECT_DIR$/src/user/register.js" />
+        <option value="$PROJECT_DIR$/src/user/login0.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="951" />
     <option name="y" value="28" />
-    <option name="width" value="1938" />
+    <option name="width" value="978" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -236,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,6 +249,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,8 +270,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WebStorm\icube\iCube\src\user" />
       <recent name="C:\WebStorm\icube\iCube\src" />
+      <recent name="C:\WebStorm\icube\iCube\mock" />
+      <recent name="C:\WebStorm\icube\iCube\src\user" />
       <recent name="C:\WebStorm\icube\src\Layout" />
     </key>
   </component>
@@ -335,7 +333,8 @@
       <workItem from="1574665456824" duration="6869000" />
       <workItem from="1574682198471" duration="10825000" />
       <workItem from="1574752955523" duration="1962000" />
-      <workItem from="1574758052337" duration="19913000" />
+      <workItem from="1574758052337" duration="25438000" />
+      <workItem from="1574819905066" duration="20274000" />
     </task>
     <task id="LOCAL-00001" summary="Home page demo">
       <created>1574086587160</created>
@@ -404,20 +403,51 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120591000" />
+    <option name="totallyTimeSpent" value="146390000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14077991" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.15399867" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50174826" side_tool="true" weight="0.19695969" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.17460318" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.2900433" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966952" weight="0.35642135" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.236616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32467532" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.26262626" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.26262626" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -425,12 +455,12 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.2900433" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966952" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49966952" visible="true" weight="0.35642135" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -446,43 +476,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ai research" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Home/less/edit.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/nav0.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/footer1.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/content5.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/teams0.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/antMotionStyle.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Content5.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -556,51 +549,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/map.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#133#277#0" />
-            <element signature="e#290#381#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginTab.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-827">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginSubmit.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginContext.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/index.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/map.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginTab.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginSubmit.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginItem.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/LoginContext.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/index.less" />
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/form/Form.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4316">
@@ -719,43 +673,10 @@
         <state relative-caret-position="-2754" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/global.js" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/store.js" />
+    <entry file="file://$PROJECT_DIR$/src/models/login.js" />
+    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/AINews/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1357">
@@ -767,16 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5148">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/login/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/user/register.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -784,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/form/Form.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2926">
-          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -828,36 +733,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/register.js">
+    <entry file="file://$PROJECT_DIR$/src/mock/actions/submitDataAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="197" column="28" lean-forward="true" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
+        <state relative-caret-position="260">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="e#0#155#0" expanded="true" />
-            <element signature="e#252#1006#0" />
-            <element signature="e#258#624#0" />
-            <element signature="e#630#1003#0" />
-            <element signature="e#1070#1138#0" />
-            <element signature="e#1165#1383#0" />
-            <element signature="e#1415#1535#0" />
-            <element signature="e#1594#1825#0" />
-            <element signature="e#1884#2069#0" />
-            <element signature="e#2107#2373#0" />
-            <element signature="e#2529#2755#0" />
-            <element signature="e#2553#2635#0" />
-            <element signature="e#2661#2744#0" />
-            <element signature="e#2792#3048#0" />
-            <element signature="e#3109#3152#0" />
-            <element signature="e#3167#3315#0" />
-            <element signature="e#3737#4299#0" />
-            <element signature="e#4166#4706#0" />
-            <element signature="e#4723#5304#0" />
-            <element signature="e#5321#5865#0" />
-            <element signature="e#5882#6308#0" />
-            <element signature="e#6375#6667#0" />
-            <element signature="e#7256#7834#0" />
-            <element signature="e#7851#8207#0" />
-            <element signature="e#8224#8413#0" />
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/service/submitDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -872,31 +763,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/actions/loginAction.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login0.js">
+    <entry file="file://$PROJECT_DIR$/src/mock/actions/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/actions/registerAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#3132#3158#0" expanded="true" />
-            <element signature="e#489#2354#0" />
-            <element signature="e#3677#4115#0" />
-            <element signature="e#3883#4062#0" />
-            <element signature="e#4132#4614#0" />
-            <element signature="e#1634#2275#0" />
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/service/configs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/service/userServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#415#451#0" />
+            <element signature="n#!!block;n#checkLogin#0" />
+            <element signature="n#!!block;n#logout#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="16" />
           <folding>
-            <element signature="e#1#42#0" expanded="true" />
-            <element signature="e#578#594#0" />
+            <element signature="e#1700#1893#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/form/Form.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="442" column="11" lean-forward="true" selection-start-line="442" selection-start-column="11" selection-end-line="442" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/actions/loginAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#155#0" expanded="true" />
+            <element signature="e#302#1056#0" />
+            <element signature="e#1465#1585#0" />
+            <element signature="e#1934#2119#0" />
+            <element signature="e#2579#2805#0" />
+            <element signature="e#2842#3098#0" />
+            <element signature="e#3159#3202#0" />
+            <element signature="e#3217#3365#0" />
+            <element signature="e#3583#7984#0" />
+            <element signature="e#7402#7758#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/login0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
