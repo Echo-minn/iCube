@@ -337,7 +337,9 @@ export const Content50DataSource = {
             children:
               'https://www.qbitai.com/wp-content/uploads/2019/11/8dcb9a84ebbc42c49d2e372eb572ead4-e1573967131446.jpeg',
           },
-          content: { children: '这个中国科学家的救命AI，登上了国外热门榜' },
+          content: {
+            children: '这个中国科学家的救命AI，登上了国外热门榜' },
+          href:'/AINews/News1',
         },
       },
       {
@@ -352,6 +354,7 @@ export const Content50DataSource = {
               'https://www.qbitai.com/wp-content/uploads/2019/11/safety-gym-cover-e1574395603877.png',
           },
           content: { children: '从“小”培养AI安全意识：OpenAI开源最新强化学习训练工具，安全约束自由定制' },
+          href:'/AINews/News2',
         },
       },
       {
@@ -365,7 +368,9 @@ export const Content50DataSource = {
             children:
               'https://www.qbitai.com/wp-content/uploads/2019/11/0c8e251deb11b5d-e1574325632470.png',
           },
-          content: { children: '索尼大法要专门开始搞AI了，成立Sony AI，发力游戏、影像和美食' },
+          content: {
+            children: '索尼大法要专门开始搞AI了，成立Sony AI，发力游戏、影像和美食'},
+          href:'/AINews/News3',
         },
       },
       {
@@ -379,8 +384,9 @@ export const Content50DataSource = {
             children:
               'https://www.qbitai.com/wp-content/uploads/2019/11/ae0c3ac8542c4fc1b71280d33b21b217-e1572931644421.jpeg',
           },
-          content: { children: '中文预训练模型ZEN开源，效果领域内最佳，创新工场港科大出品' },
-        },
+          content: { children: '中文预训练模型ZEN开源，效果领域内最佳，创新工场港科大出品'},
+          href:'/AINews/News4',
+      },
       },
       {
         name: 'block5',
@@ -393,8 +399,9 @@ export const Content50DataSource = {
             children:
               'https://www.qbitai.com/wp-content/uploads/2019/11/640-166-e1574314027281.jpeg',
           },
-          content: { children: '对话CMU计算机新任院长：看好AI交叉创新出成果' },
-        },
+          content: { children: '对话CMU计算机新任院长：看好AI交叉创新出成果'},
+          href:'/AINews/News5',
+      },
       },
       {
         name: 'block6',

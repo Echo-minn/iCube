@@ -7,7 +7,12 @@ import Home from './Home';
 import AIResearch from './AIResearch';
 import AILab from './AILab/AILab';
 import AIPaper from './AIPaper';
-import News0 from './AINews/news0';
+import News0 from './AINews/news/news0';
+import News1 from './AINews/news/news1';
+import News2 from './AINews/news/news2';
+import News3 from './AINews/news/news3';
+import News4 from './AINews/news/news4';
+import News5 from './AINews/news/news5';
 import iTeam from './iTeam';
 import LoginForm from './user/login0';
 import WrappedRegistrationForm from './user/register';
@@ -50,6 +55,11 @@ class App extends Component{
             <Route exact path="/AILab" component={AILab}/>
             <Route exact path="/AIPaper" component={AIPaper}/>
             <Route exact path="/AINews/News0" component={News0}/>
+            <Route exact path="/AINews/News1" component={News1}/>
+            <Route exact path="/AINews/News2" component={News2}/>
+            <Route exact path="/AINews/News3" component={News3}/>
+            <Route exact path="/AINews/News4" component={News4}/>
+            <Route exact path="/AINews/News5" component={News5}/>
             <Route exact path="/iTeam" component={iTeam}/>
             <Route exact path="/login" component={LoginForm}/>
             <Route exact path="/register" component={WrappedRegistrationForm}/>

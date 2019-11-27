@@ -1,15 +1,16 @@
-
 import React from 'react';
-import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Form, Icon, Input, Button, Checkbox,Alert } from 'antd';
 import './login0.css';
 import axios from 'axios';
-//import {loginActions} from '../mock/actions/loginAction';
+
 
 let responseData = {
   statusCode:'',
-  messageDetail:''
+  messageDetail:'',
+  url:'/register',
 };
-
+//let responseURL='/';
+//17786047941
 class loginForm extends React.Component {
     handleSubmit = e => {
         e.preventDefault();
@@ -33,11 +34,33 @@ class loginForm extends React.Component {
                     console.log(responseData.messageDetail.user_name);
                     if(responseData.statusCode==='507'){
                         alert("该用户未注册，请先注册");
+                        return (
+                            <Alert
+                                message="ERROR"
+                                description="该用户未注册，请先注册"
+                                type="warning"
+                                showIcon
+                            />
+                        );
                     }else if(responseData.statusCode==='506'){
                         alert("用户名或密码错误！");
+                        return (
+                            <Alert
+                                message="ERROR"
+                                description="用户名或密码错误！"
+                                type="error"
+                                showIcon
+                            />
+                        );
                     }else if(responseData.statusCode==='0'){
-                        alert("欢迎回来！"+response.messageDetail.user_name);
-
+                        return (
+                            <Alert
+                                message="欢迎回来！"
+                                description="开始在iCube的奇妙之旅吧！"
+                                type="success"
+                                showIcon
+                            />
+                        )
                     }
                 })
                 .catch(function(error) {
@@ -46,13 +69,14 @@ class loginForm extends React.Component {
         });
 
     };
+
     render() {
         const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.handleSubmit} className="login-form" style={{width: 400}}>
-                <div className="padding-div"></div>
+                <div className="padding-div"/>
                 <h2><b>登录iCube</b></h2>
-                <p></p>
+                <p/>
                 <Form.Item>
                     {getFieldDecorator('phone', {
                         rules: [{ required: true, message: 'Please input your phoneNumber!' }],
@@ -79,16 +103,27 @@ class loginForm extends React.Component {
                         valuePropName: 'checked',
                         initialValue: true,
                     })(<Checkbox>Remember me</Checkbox>)}
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a className="login-form-forgot" href="">
                         Forgot password
                     </a>
-                    <div style={{height: 20}}></div>
-                    <Button type="primary" htmlType="submit" className="login-form-button" >
+                    <div style={{height: 20}}/>
+                    <a href='/'>
+                    <Button type="primary" htmlType="submit" className="login-form-button" onClick={
+                        <Alert
+                            message="Success Tips"
+                            description="登录成功，开始在iCube的奇妙之旅吧~~！"
+                            type="success"
+                            showIcon
+                        />
+                    }>
                         Log in
+                        {this.handleSubmit}
                     </Button>
+                    </a>
                     Or <a href="/register">register now!</a>
                 </Form.Item>
-                <div className="padding-div"></div>
+                <div className="padding-div"/>
             </Form>
         );
     }

@@ -1,0 +1,19 @@
+.article{
+
+    margin: 0px auto;
+    max-width: 450px;
+
+}
+img{
+    text-align: center;
+    padding-left: 50px;
+    max-width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dl{
+    height: 20px;
+}
+p{
+    font-weight: 600;
+}

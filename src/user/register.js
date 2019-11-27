@@ -1,3 +1,7 @@
+/**
+ * @Author 肖敏
+ * @create 2019-11-27
+ */
 import {
     Form,
     Input,
@@ -9,11 +13,19 @@ import {
     Col,
     Checkbox,
     Button,
-    AutoComplete,
+    Alert,
 } from 'antd';
 import axios from 'axios';
 import React from 'react';
 import './login0.css';
+
+let responseCaptcha={
+    statusCode:'',
+    messageDetail: '',
+    url:'/register'
+};
+
+let responseURL='/login';
 
 const {Option} = Select;
 
@@ -58,6 +70,10 @@ class RegistrationForm extends React.Component {
         autoCompleteResult: [],
     };
 
+    /**
+     * 验证是否注册成功
+     * @param e
+     */
     handleSubmit = e => {
         e.preventDefault();
         this.props.form.validateFieldsAndScroll((err, values) => {
@@ -68,6 +84,7 @@ class RegistrationForm extends React.Component {
             data.append("phone", values.phone);
             data.append("password",values.password);
             data.append("verification_code",values.captcha);
+            data.append("user_name",values.nickname);
             let url = "http://47.110.251.127:8000/sign_up/";
             axios.post(url, data,{
                 headers: {
@@ -75,14 +92,60 @@ class RegistrationForm extends React.Component {
                 }
             })
                 .then(function (response) {
-                    console.log(response);
+                    responseCaptcha=response.data;
+                    console.log(responseCaptcha.statusCode);
+                    if(responseCaptcha.statusCode==='0'){
+                        console.log("注册成功，马上登录吧！");
+                        return (
+                            <Alert
+                                message="Success Tips"
+                                description="注册成功，马上登录吧！"
+                                type="success"
+                                showIcon
+                            />
+                        );
+                    }else if(responseCaptcha.statusCode==='502'){
+                        alert("你已经注册过啦~");
+                        return (
+                            <Alert
+                                message="WARNING"
+                                description="你已经注册过啦~可以直接登录哦~~"
+                                type="warning"
+                                showIcon
+                            />
+                        );
+                    }else if(responseCaptcha.statusCode==='503'){
+                        alert("验证码输错了呜呜呜=_=");
+                        return (
+                            <Alert
+                                message="ERROR"
+                                description="验证码输错了呜呜呜=_="
+                                type="error"
+                                showIcon
+                            />
+                        );
+                    }else if(responseCaptcha.statusCode==='504'){
+                        alert("你还没有获得验证码哦");
+                        return (
+                            <Alert
+                                message="ERROR"
+                                description="你还没有获得验证码哦"
+                                type="error"
+                                showIcon
+                            />
+                        );
+                    }
                 })
                 .catch(function (error) {
-
+                    console.log(error);
                 });
         });
     };
 
+    /**
+     * 请求验证码
+     * @param e
+     */
     handleSend = e => {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
@@ -99,6 +162,17 @@ class RegistrationForm extends React.Component {
             })
                 .then(function (response) {
                     console.log(response);
+                    if(response.data.statusCode==='0'){
+                        console.log("验证码发送成功！");
+                        return (
+                            <Alert
+                                message="Success Tips :)"
+                                description="恭喜你，验证码发送成功啦~~"
+                                type="success"
+                                showIcon
+                            />
+                        );
+                    }
                 })
                 .catch(function (error) {
                     console.log(error);
@@ -129,7 +203,10 @@ class RegistrationForm extends React.Component {
         callback();
     };
 
-
+    /**
+     * 渲染表单
+     * @returns {*}
+     */
     render() {
         const {getFieldDecorator} = this.props.form;
 
@@ -253,14 +330,22 @@ class RegistrationForm extends React.Component {
                             valuePropName: 'checked',
                         })(
                             <Checkbox>
-                                I have read the <a href="">agreement</a>
+                                I have read the <a href="/iTeam">agreement</a>
                             </Checkbox>,
                         )}
                     </Form.Item>
                     <Form.Item {...tailFormItemLayout}>
-                        <Button type="primary" htmlType="submit">
+                        <Button type="primary" htmlType="submit" onClick={
+                            <Alert
+                                message="Success Tips"
+                                description="注册成功，马上登录吧！"
+                                type="success"
+                                showIcon
+                            />
+                        }>
                             Register
                         </Button>
+                        Go to <a href="/login">login now!</a>
                     </Form.Item>
                 </Form>
             </div>

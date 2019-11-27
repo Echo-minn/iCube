@@ -1,5 +1,6 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
+import '../less/pb.css';
 
 let isMobile;
 enquireScreen((b) => {
@@ -38,9 +39,12 @@ export default class News0 extends React.Component {
     render() {
         return (
             <div className="article">
-                <h1>谷歌大脑开源「数据增强」新招数：ImageNet准确率达85%，大神Quoc Le出品</h1>
+                <div className="dl"/>
+                <h2>谷歌大脑开源「数据增强」新招数：ImageNet准确率达85%，大神Quoc Le出品</h2>
+                <div className="dl"/>
                 <blockquote className="article-blockquote-first"><p>十三 发自 凹非寺<br/>
                     量子位 报道 | 公众号 QbitAI</p></blockquote>
+                <div className="dl"/>
                 <p>你的数据还不够强。</p>
                 <p>玩深度学习的人都知道，AI算法大部分是<strong>数据驱动</strong>。数据的质量一定程度上决定了模型的好坏。</p>
                 <p>这就有了深度学习天生的一个短板：<strong>数据不够多、不够好</strong>。</p>
@@ -50,6 +54,7 @@ export default class News0 extends React.Component {
                 <blockquote className="article-blockquote"><p>1、大规模采用这样的方法会增加训练复杂性、加大计算成本；</p>
                     <p>2、无法根据模型或数据集大小调整正则化强度。</p></blockquote>
                 <p>于是乎，谷歌大脑团队又提出了一种数据增强的方法——<strong>RandAugment</strong>。</p>
+
                 <div className="pgc-img"><img alt="是你的数据还不够强！谷歌大脑「数据增强」开源，大神QuocLe出品"
                                               src="http://p3.pstatp.com/large/pgc-image/bfbcb253a5ac4941b2bffe3fd055c846"/>
                 </div>
@@ -64,9 +69,11 @@ export default class News0 extends React.Component {
                 <p>1、在ImageNet数据集上，实现了85.0%的准确率，比以前的水平提高了0.6%，比基线增强了1.0%。</p>
                 <p>2、在目标检测方面，RandAugment能比基线增强方法提高1.0-1.3%。</p>
                 <p>值得一提的是，这项研究的通讯作者是谷歌AutoML幕后英雄的Quoc Viet Le大神。</p>
+                <div className="dl"/>
                 <div className="pgc-img"><img alt="是你的数据还不够强！谷歌大脑「数据增强」开源，大神QuocLe出品"
                                               src="http://p1.pstatp.com/large/pgc-image/3822f7c3a16f439dafa447832469a78c"/>
                 </div>
+                <div className="dl"/>
             </div>
         );
     }
