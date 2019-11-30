@@ -6,6 +6,9 @@ import Footer from './Layout/Footer1';
 import Home from './Home';
 import AIResearch from './AIResearch';
 import AILab from './AILab/AILab';
+import WrappedDemo1 from './AILab/AILab/imgProcess/combineImage';
+import WrappedDemo2 from './AILab/AILab/imgProcess/tagImage';
+import WrappedDemo from './AILab/AILab/imgProcess/uploadImage';
 import AIPaper from './AIPaper';
 import News0 from './AINews/news/news0';
 import News1 from './AINews/news/news1';
@@ -63,6 +66,9 @@ class App extends Component{
             <Route exact path="/iTeam" component={iTeam}/>
             <Route exact path="/login" component={LoginForm}/>
             <Route exact path="/register" component={WrappedRegistrationForm}/>
+            <Route exact path="/ImageCombine" component={WrappedDemo1}/>
+            <Route exact path="/ImageTag" component={WrappedDemo2}/>
+            <Route exact path="/ImageProcess" component={WrappedDemo}/>
             <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
           </div>
           <div>

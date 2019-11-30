@@ -3,9 +3,10 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 import scrollScreen from 'rc-scroll-anim/lib/ScrollScreen';
+import Banner1 from './Banner1';
 import Feature5 from './Feature5';
 
-import { Feature50DataSource } from './data.source';
+import { Banner10DataSource, Feature50DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -15,7 +16,7 @@ enquireScreen((b) => {
 
 const { location } = window;
 
-export default class Home extends React.Component {
+export default class iTeam extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,7 +28,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     /* 如果不是 dva 2.0 请使用以下代码
     // 实现整屏滚动
-    scrollScreen.init({ location: ['Feature5_0'] });
+    scrollScreen.init({ location: ['Banner1_0', 'Feature5_0'] });
     */
     // 适配手机屏幕;
     enquireScreen((b) => {
@@ -42,7 +43,7 @@ export default class Home extends React.Component {
           show: true,
         });
         // 实现整屏滚动
-        scrollScreen.init({ location: ['Feature5_0'] });
+        scrollScreen.init({ location: ['Banner1_0', 'Feature5_0'] });
       }, 500);
     }
     /* 如果不是 dva 2.0 请删除 end */
@@ -50,6 +51,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
+      <Banner1
+        id="Banner1_0"
+        key="Banner1_0"
+        dataSource={Banner10DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Feature5
         id="Feature5_0"
         key="Feature5_0"

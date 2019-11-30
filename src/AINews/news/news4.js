@@ -38,6 +38,7 @@ export default class news4 extends React.Component{
                 <div className="dl"/>
                 <blockquote className="article-blockquote-first"><p>允中 发自 凹非寺</p></blockquote>
                 <blockquote className="article-blockquote-first"><p>量子位 报道 | 公众号 QbitAI</p></blockquote>
+                <div className="dl"/>
                 <p className="ql-align-justify">改进策略简单有效、收敛速度快，同时小数据效果出色。</p>
                 <p className="ql-align-justify">这就是<strong>中文预训练模型ZEN</strong>。</p>
                 <p className="ql-align-justify">在中文任务中，ZEN不仅性能优于BERT，也比之前中文预训练模型更好。</p>

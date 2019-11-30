@@ -6,8 +6,9 @@
 }
 img{
     text-align: center;
-    padding-left: 50px;
-    max-width: 400px;
+    max-width: 450px;
+}
+.pgc-img{
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -15,5 +16,5 @@ img{
     height: 20px;
 }
 p{
-    font-weight: 600;
+    font-weight: 500;
 }

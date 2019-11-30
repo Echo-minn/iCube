@@ -42,10 +42,10 @@ export default class news1 extends React.Component{
             <p>总是送别人上热搜的微博，今天它自己上热搜了。</p>
             <p>一个借助微博挽救自杀者的团体登上了“美国科技热搜榜”Techmeme，这个志愿者团队“树洞救援团”使用AI技术，分析微博上的言论，自动发现可能要自杀的人，之后通过各种方式挽救他们的生命。</p>
             <p>不少国外网友都纷纷称赞这一正能量行动。有人赞叹，在讨论AI技术的各种声音中，中国的这个应用找到了非常棒的用处：</p>
-            <div className="pgc-img"><img src="http://p3.pstatp.com/large/pgc-image/8dcb9a84ebbc42c49d2e372eb572ead4"/>
+            <div className="pgc-img"><img className="pgc-img" src="http://p3.pstatp.com/large/pgc-image/8dcb9a84ebbc42c49d2e372eb572ead4"/>
             </div>
             <p>这也是AI有助于社会的一种方式，它帮助了抑郁症患者：</p>
-            <div className="pgc-img"><img src="http://p1.pstatp.com/large/pgc-image/65982f9453f74303a34f0a93d51d1b83"/>
+            <div className="pgc-img"><img className="pgc-img" src="http://p1.pstatp.com/large/pgc-image/65982f9453f74303a34f0a93d51d1b83"/>
             </div>
             <div className="dl"/>
             <h2><strong>树洞救援团</strong></h2>

@@ -1,4 +1,170 @@
 import React from 'react';
+export const Banner10DataSource = {
+  wrapper: { className: 'banner1' },
+  BannerAnim: {
+    children: [
+      {
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg0 k3kcoy4gwmt-editor_css' },
+        title: {
+          className: 'banner1-title',
+          children: (
+            <>
+              <p>YuQing学妹</p>
+              <p>
+                <br />
+              </p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner1-content',
+          children: (
+            <>
+              <p>人美心善，可爱温柔</p>
+            </>
+          ),
+        },
+        button: {
+          className: 'banner1-button',
+          children: (
+            <>
+              <p>牛羽庆</p>
+            </>
+          ),
+        },
+      },
+      {
+        name: 'elem1',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg1 k3kdxzvc5hr-editor_css' },
+        title: {
+          className: 'banner1-title',
+          children: (
+            <>
+              <p>向日葵heliotrope</p>
+              <p>
+                <br />
+              </p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner1-content k3ke88itcrf-editor_css',
+          children: (
+            <>
+              <p>学妹送的花</p>
+            </>
+          ),
+        },
+        button: { className: 'banner1-button', children: 'Learn More' },
+      },
+      {
+        name: 'elem2',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg1 k3ke3350xqp-editor_css' },
+        title: {
+          className: 'banner1-title k3kf70mdjc-editor_css',
+          children: (
+            <>
+              <p>
+                AnRan Chen<br />
+                <br />
+              </p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner1-content k3ke6ph9bh8-editor_css',
+          children: (
+            <>
+              <p>据说用这张做头像，彭于晏说没问题</p>
+            </>
+          ),
+        },
+        button: {
+          className: 'banner1-button',
+          children: (
+            <>
+              <p>陈安然</p>
+            </>
+          ),
+        },
+      },
+      {
+        name: 'elem~k3ken1ndlhm',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg1 k3ke6ph9bh8-editor_css' },
+        title: {
+          className: 'banner1-title',
+          children: (
+            <>
+              <p>Jiale Zhang</p>
+              <p>
+                <br />
+              </p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner1-content k3ke6ph9bh8-editor_css',
+          children: (
+            <>
+              <p>传说中的吴彦祖单身待撩</p>
+            </>
+          ),
+        },
+        button: {
+          className: 'banner1-button',
+          children: (
+            <>
+              <p>张佳乐</p>
+            </>
+          ),
+        },
+      },
+      {
+        name: 'elem~k3ken2u0257',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg1 k3ke88itcrf-editor_css' },
+        title: {
+          className: 'banner1-title',
+          children: (
+            <>
+              <p>Echo-minn</p>
+              <p>
+                <br />
+              </p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner1-content k3ke6ph9bh8-editor_css',
+          children: (
+            <>
+              <p>没错，我跟爱因斯坦一样可爱</p>
+            </>
+          ),
+        },
+        button: {
+          className: 'banner1-button',
+          children: (
+            <>
+              <p>肖敏</p>
+            </>
+          ),
+        },
+      },
+    ],
+    className: 'k3keogjxndn-editor_css',
+  },
+};
 export const Feature50DataSource = {
   wrapper: { className: 'home-page-wrapper content7-wrapper' },
   page: { className: 'home-page content7' },
@@ -75,7 +241,7 @@ export const Feature50DataSource = {
           img: {
             className: 'content7-img',
             children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+              'https://zero-cup.oss-cn-beijing.aliyuncs.com/%E9%99%88%E5%AE%89%E7%84%B6.jpg',
             md: 10,
             xs: 24,
           },
@@ -127,7 +293,7 @@ export const Feature50DataSource = {
             md: 10,
             xs: 24,
             children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+              'https://zero-cup.oss-cn-beijing.aliyuncs.com/%E5%BC%A0%E4%BD%B3%E4%B9%90.jpg',
           },
         },
       },
@@ -177,7 +343,7 @@ export const Feature50DataSource = {
             md: 10,
             xs: 24,
             children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+              'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
           },
         },
       },

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "antd";
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
   page: { className: 'home-page content0 k34k7femq0k-editor_css' },
@@ -123,7 +124,6 @@ export const Content00DataSource = {
         },
       },
     ],
-    button: { className: 'banner0-button', children: '立即试试!' ,href:"/AILab"},
   },
 };
 export const Teams11DataSource = {
@@ -138,6 +138,9 @@ export const Teams11DataSource = {
         children: (
           <>
             <p>图像分析</p>
+            <a href="/ImageTag">
+              <Button>现在试试！</Button>
+            </a>
           </>
         ),
       },
@@ -299,6 +302,9 @@ export const Teams10DataSource = {
         children: (
           <>
             <p>图像处理</p>
+            <a href="/ImageCombine">
+              <Button>现在试试！</Button>
+            </a>
           </>
         ),
       },
@@ -457,6 +463,9 @@ export const Teams12DataSource = {
         children: (
           <>
             <p>颜值打分</p>
+            <a href="/ImageProcess">
+              <Button>现在试试！</Button>
+            </a>
           </>
         ),
       },

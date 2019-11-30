@@ -89,7 +89,7 @@ export const Nav00DataSource = {
           {
             children: (
                 <>
-                  <p><b>你好！USER</b></p>
+                  <p><b>你好！</b></p>
                 </>
             ),
             name:'text'
@@ -533,7 +533,9 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              '你不用知道所有事，我们可以帮你识别。',
+              '提取感兴趣区，用预先制作的感兴趣区掩模与待处理图想相乘，得到感兴趣图像，感兴趣内图像值保持不变，而区外图像值都为0.\n' +
+                '屏蔽作用，用掩模对图像上某些区域作屏蔽，使其不参加处理或不参加处理参数计算，或进队屏蔽区做处理统计。\n' +
+                '结构特征提取，用相似性变量或图像匹配方法检测和图像中与淹没相似的结构特征。',
           },
         },
       },
@@ -549,11 +551,11 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '图像处理' },
+          title: { className: 'content3-title', children: '风格转换' },
           content: {
             className: 'content3-content',
             children:
-              '我也可以有梵高梦。',
+              '我也可以有梵高梦。在神经网络之前，图像风格迁移的程序有一个共同的思路：分析某一种风格的图像，给那一种风格建立一个数学或者统计模型，再改变要做迁移的图像让它能更好的符合建立的模型。这样做出来效果还是不错的，比如下面的三张图中所示，但一个很大的缺点：一个程序基本只能做某一种风格或者某一个场景。\n' ,
           },
         },
       },
@@ -573,7 +575,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              '你的美丽只有我知道。',
+                '在中文维基百科中，强化学习被定义为机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期收益 wikipedia。Richard S. Sutton and Andrew G. Barto 最新的强化学习书籍《Reinforcement Learning: An Introduction II》中对强化学习的定义为: Reinforcement learning is learning what to do—how to map situations to actions——so as to maximize a numerical reward signal.',
           },
         },
       },
@@ -593,7 +595,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+              '自动语音识别是一种将口头语音转换为实时可读文本的技术。自动语音识别也称为语音识别(Speech Recognition)或计算机语音识别(Computer Speech Recognition)。自动语音识别是一个多学科交叉的领域，它与声学、语音学、语言学、数字信号处理理论、信息论、计算机科学等众多学科紧密相连。由于语音信号的多样性和复杂性，目前的语音识别系统只能在一定的限制条件下获得满意的性能，或者说只能应用于某些特定的场合。自动语音识别在人工智能领域占据着极其重要的位置。',
           },
         },
       },
@@ -613,7 +615,8 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+                '你的美丽只有我知道。 \n主要算法——基于面像数据稀疏表示的颜值评估模型\n' +
+                '（Beauty Assessment Model For Data Of Face Based On Sparse Representation）\n人脸识别与面部提取、投票打分器以及图片库数据、基于HOG及SVM的性别分类\n',
           },
         },
       },
@@ -629,11 +632,11 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '机器学习' },
+          title: { className: 'content3-title', children: '模式识别' },
           content: {
             className: 'content3-content',
             children:
-              '高校建立的实验室一般与科技巨头公司所追求的目标有所不同，其研究项目除了偏应用科学的领域，还有一些属于基础理论研究，是无法从具体的产品上表现的，通常高校实验室会同时进行两种领域的研究甚至侧重后者，从学术领域为AI的长远发展铺垫道路，培养人才，探索前沿。',
+              'Pattern recognition is the automated recognition of patterns and regularities in data. Pattern recognition is closely related to artificial intelligence and machine learning,[1] together with applications such as data mining and knowledge discovery in databases (KDD). However, these are distinguished: machine learning is one approach to pattern recognition, while other approaches include hand-crafted (not learned) rules or heuristics; and pattern recognition is one approach to artificial intelligence, while other approaches include symbolic artificial intelligence.',
           },
         },
       },

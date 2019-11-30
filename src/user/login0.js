@@ -1,7 +1,8 @@
 import React from 'react';
-import { Form, Icon, Input, Button, Checkbox,Alert } from 'antd';
+import { Form, Icon, Input, Button, Checkbox,Alert,message } from 'antd';
 import './login0.css';
 import axios from 'axios';
+import {withRouter} from "react-router";
 
 
 let responseData = {
@@ -33,34 +34,11 @@ class loginForm extends React.Component {
                     console.log(responseData.statusCode);
                     console.log(responseData.messageDetail.user_name);
                     if(responseData.statusCode==='507'){
-                        alert("该用户未注册，请先注册");
-                        return (
-                            <Alert
-                                message="ERROR"
-                                description="该用户未注册，请先注册"
-                                type="warning"
-                                showIcon
-                            />
-                        );
+                        message.warning("该用户未注册，请先注册");
                     }else if(responseData.statusCode==='506'){
-                        alert("用户名或密码错误！");
-                        return (
-                            <Alert
-                                message="ERROR"
-                                description="用户名或密码错误！"
-                                type="error"
-                                showIcon
-                            />
-                        );
+                        message.error("用户名或密码错误！");
                     }else if(responseData.statusCode==='0'){
-                        return (
-                            <Alert
-                                message="欢迎回来！"
-                                description="开始在iCube的奇妙之旅吧！"
-                                type="success"
-                                showIcon
-                            />
-                        )
+                        message.success("欢迎回来！"+responseData.messageDetail.user_name);
                     }
                 })
                 .catch(function(error) {
@@ -69,6 +47,10 @@ class loginForm extends React.Component {
         });
 
     };
+
+    alertMessage(){
+        message.success("欢迎回来！");
+    }
 
     render() {
         const { getFieldDecorator } = this.props.form;
@@ -108,18 +90,10 @@ class loginForm extends React.Component {
                         Forgot password
                     </a>
                     <div style={{height: 20}}/>
-                    <a href='/'>
-                    <Button type="primary" htmlType="submit" className="login-form-button" onClick={
-                        <Alert
-                            message="Success Tips"
-                            description="登录成功，开始在iCube的奇妙之旅吧~~！"
-                            type="success"
-                            showIcon
-                        />
-                    }>
-                        Log in
-                        {this.handleSubmit}
-                    </Button>
+                    <a href='/' onClick={this.alertMessage}>
+                        <Button type="primary"  className="login-form-button" >
+                            Log in
+                        </Button>
                     </a>
                     Or <a href="/register">register now!</a>
                 </Form.Item>
@@ -128,6 +102,6 @@ class loginForm extends React.Component {
         );
     }
 }
-
-const LoginForm = Form.create({ name: 'login' })(loginForm);
-export default LoginForm;
+const routerLoginForm=withRouter(loginForm);
+const ReduxLoginForm= Form.create({ name: '/register' })(routerLoginForm);
+export default ReduxLoginForm;

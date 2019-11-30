@@ -14,6 +14,7 @@ import {
     Checkbox,
     Button,
     Alert,
+    message
 } from 'antd';
 import axios from 'axios';
 import React from 'react';
@@ -22,7 +23,7 @@ import './login0.css';
 let responseCaptcha={
     statusCode:'',
     messageDetail: '',
-    url:'/register'
+    url:'/login'
 };
 
 let responseURL='/login';
@@ -95,7 +96,7 @@ class RegistrationForm extends React.Component {
                     responseCaptcha=response.data;
                     console.log(responseCaptcha.statusCode);
                     if(responseCaptcha.statusCode==='0'){
-                        console.log("注册成功，马上登录吧！");
+                        message.success("注册成功，马上登录吧！");
                         return (
                             <Alert
                                 message="Success Tips"
@@ -105,7 +106,7 @@ class RegistrationForm extends React.Component {
                             />
                         );
                     }else if(responseCaptcha.statusCode==='502'){
-                        alert("你已经注册过啦~");
+                        message.info("你已经注册过啦~");
                         return (
                             <Alert
                                 message="WARNING"
@@ -115,7 +116,7 @@ class RegistrationForm extends React.Component {
                             />
                         );
                     }else if(responseCaptcha.statusCode==='503'){
-                        alert("验证码输错了呜呜呜=_=");
+                        message.error("验证码输错了呜呜呜=_=");
                         return (
                             <Alert
                                 message="ERROR"
@@ -125,7 +126,7 @@ class RegistrationForm extends React.Component {
                             />
                         );
                     }else if(responseCaptcha.statusCode==='504'){
-                        alert("你还没有获得验证码哦");
+                        message.warning("你还没有获得验证码哦");
                         return (
                             <Alert
                                 message="ERROR"
@@ -163,7 +164,7 @@ class RegistrationForm extends React.Component {
                 .then(function (response) {
                     console.log(response);
                     if(response.data.statusCode==='0'){
-                        console.log("验证码发送成功！");
+                        message.success("验证码发送成功！");
                         return (
                             <Alert
                                 message="Success Tips :)"
@@ -335,16 +336,11 @@ class RegistrationForm extends React.Component {
                         )}
                     </Form.Item>
                     <Form.Item {...tailFormItemLayout}>
-                        <Button type="primary" htmlType="submit" onClick={
-                            <Alert
-                                message="Success Tips"
-                                description="注册成功，马上登录吧！"
-                                type="success"
-                                showIcon
-                            />
-                        }>
-                            Register
-                        </Button>
+                        <a href={responseCaptcha.url}>
+                            <Button type="primary" onClick={this.handleSubmit}>
+                                Register
+                            </Button>
+                        </a>
                         Go to <a href="/login">login now!</a>
                     </Form.Item>
                 </Form>
