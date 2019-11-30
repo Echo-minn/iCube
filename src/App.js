@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import { connect } from 'dva';
+// import { ActivityIndicator } from 'antd-mobile';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Header from './Layout/Nav0';
@@ -31,7 +33,15 @@ enquireScreen((b)=>{
   isMobil=b;
 });
 
+// const  TIMER =8000;
+// let timeoutId=null;
+
 class App extends Component{
+
+  // state={
+  //   show:false
+  // };
+
   constructor(props){
     super(props);
     this.state = {
@@ -44,9 +54,35 @@ class App extends Component{
       this.setState({isMobil: !!b});
     });
   }
-  componentWillMount() {
-
-  }
+  // componentWillMount() {
+  //   const { loading } = this.props;
+  //   if (loading) {
+  //     timeoutId = setTimeout(() => {
+  //       this.setState({
+  //         show: true
+  //       });
+  //     }, TIMER);
+  //   }
+  // }
+  // componentWillReceiveProps(nextProps) {
+  //   const { loading } = nextProps;
+  //   const { show } = this.state;
+  //   this.setState({
+  //     show: false
+  //   });
+  //   if (loading) {
+  //     timeoutId = setTimeout(() => {
+  //       this.setState({
+  //         show: true
+  //       });
+  //     }, TIMER);
+  //   }
+  // }
+  // componentWillUnmount() {
+  //   if (timeoutId) {
+  //     clearTimeout(timeoutId);
+  //   }
+  // }
 
   render() {
     return(
