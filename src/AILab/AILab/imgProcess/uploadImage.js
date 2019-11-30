@@ -45,6 +45,11 @@ function getBase64(file) {
     });
 }
 
+function load() {
+    document.getElementById("p1").innerHTML = responseData.messageDetail.image_detial.score;
+    document.getElementById("img1").src = "http://couseraccess.oss-cn-beijing.aliyuncs.com/Magic%20Deer.jpg";
+}
+
 class Demo extends React.Component {
     state = {
         loading: false,
@@ -80,17 +85,13 @@ class Demo extends React.Component {
                     processData: false,
                     data: formData,
                     success: (res) => {//上传成功回调
-                        message.success("success");
                         var data = JSON.parse(res);
                         console.log(data);
                         responseData = data;
                         console.log("------");
-                        if (res.statusCode === 0) {
-                            this.setState({
-                                imageUrl: res.imageUrl,
-                            });
-                            message.success('上传成功！');
-                            responseData = data;
+                        if (data.statusCode === 0) {
+                            message.success('分析成功！');
+                            load();
                         }
                     },
                     error: () => {//上传失败回调
@@ -129,13 +130,13 @@ class Demo extends React.Component {
         return (
             <div style={{margin:"auto",paddingTop:150,paddingBottom:150,maxWidth:400}}>
                 <div style={{marginLeft:148}}>
-                <Upload
-                    {...props}
-                    listType="picture-card"
-                    onChange={this.handleChange}
-                >
-                    {img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%'}} /> :     uploadButton}
-                </Upload>
+                    <Upload
+                        {...props}
+                        listType="picture-card"
+                        onChange={this.handleChange}
+                    >
+                        {img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%'}} /> :     uploadButton}
+                    </Upload>
                 </div>
                 {/*<Button type="primary"*/}
                 {/*    onClick={this.handleClick}*/}

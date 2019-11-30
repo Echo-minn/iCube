@@ -23,10 +23,8 @@ import {
 
 //定义后台返回数据类型
 let responseData={
-    score:'',
-    root:'',
-    baike_info:{},
-    keyword:''
+
+
 };
 
 let img={
@@ -43,6 +41,12 @@ function getBase64(file) {
         reader.onload = () => resolve(reader.result);
         reader.onerror = error => reject(error);
     });
+}
+
+function load() {
+    document.getElementById("p1").innerHTML = responseData.messageDetail.image_detial.root;
+    document.getElementById("p2").innerHTML = responseData.messageDetail.image_detial.keyword;
+    document.getElementById("img1").src = "http://couseraccess.oss-cn-beijing.aliyuncs.com/Magic%20Deer.jpg";
 }
 
 class Demo extends React.Component {
@@ -75,26 +79,19 @@ class Demo extends React.Component {
                 formData.append('filename', info.file);//名字和后端接口名字对应
                 formData.append('recognize_type', "1");
                 reqwest({
-                    url: 'http://www.icube.fun:8000/image_recognize/',//上传url
+                    url: 'http://192.168.1.100:8000/image_recognize/',//上传url
                     method: 'post',
                     processData: false,
                     data: formData,
                     success: (res) => {//上传成功回调
-                        message.success("success");
                         var data = JSON.parse(res);
                         console.log(data);
                         responseData = data;
                         console.log("------");
-                        console.log(responseData);
-                        console.log(responseData.keyword);
-                        alert("图片标签：\n"+responseData.root+"\n"+responseData.keyword);
-                        // if (res.statusCode === 0) {
-                        //     this.setState({
-                        //         imageUrl: res.imageUrl,
-                        //     });
-                        //     message.success('上传成功！');
-                        //     responseData = data;
-                        // }
+                        if (data.statusCode === 0) {
+                            message.success('分析成功！');
+                            load();
+                        }
                     },
                     error: () => {//上传失败回调
                         message.error('上传失败！');
@@ -130,17 +127,16 @@ class Demo extends React.Component {
             },
         };
         return (
-
             <div style={{margin:"auto",paddingTop:150,paddingBottom:150,maxWidth:400}}>
                 <div style={{margin:"auto",textAlign:"center",marginLeft:148}}>
-                <Upload
-                    {...props}
-                    listType="picture-card"
-                    onChange={this.handleChange}
-                    style={{}}
-                >
-                    {img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%'}} /> :     uploadButton}
-                </Upload>
+                    <Upload
+                        {...props}
+                        listType="picture-card"
+                        onChange={this.handleChange}
+                        style={{}}
+                    >
+                        {img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%'}} /> :     uploadButton}
+                    </Upload>
                 </div>
                 {/*<Button type="primary"*/}
                 {/*    onClick={this.handleClick}*/}
@@ -152,7 +148,6 @@ class Demo extends React.Component {
                     <p>{responseData.keyword}</p>
                 </Card>
             </div>
-
         )
     }
 

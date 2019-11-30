@@ -56,24 +56,7 @@ class Demo extends React.Component {
         previewVisible: false,
         previewImage: '',
         fileList: [
-            {
-                uid: '-1',
-                name: 'image.png',
-                status: 'done',
-                url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-            },
-            {
-                uid: '-2',
-                name: 'image.png',
-                status: 'done',
-                url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-            },
-            {
-                uid: '-3',
-                name: 'image.png',
-                status: 'done',
-                url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-            }
+
         ],
         root:'',
         keyword:'',
@@ -157,27 +140,27 @@ class Demo extends React.Component {
         };
         return (
             <div style={{margin:"auto",paddingTop:150,paddingBottom:150,maxWidth:400}}>
-            <div>
-                <div style={{margin:"auto",textAlign:"center",marginLeft:90}}>
-                <Upload {...props}
-                    listType="picture-card"
-                    fileList={fileList}
-                    onChange={this.handleChange}
-                >
-                    {/*{img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%' }} /> :     uploadButton}*/}
-                    {imgNum.num >= 1 ? null : uploadButton}
-                </Upload>
+                <div>
+                    <div style={{margin:"auto",textAlign:"center",marginLeft:90}}>
+                        <Upload {...props}
+                                listType="picture-card"
+                                fileList={fileList}
+                                onChange={this.handleChange}
+                        >
+                            {/*{img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%' }} /> :     uploadButton}*/}
+                            {imgNum.num >= 1 ? null : uploadButton}
+                        </Upload>
+                    </div>
+                    {/*<Button type="primary"*/}
+                    {/*    onClick={this.handleClick}*/}
+                    {/*>*/}
+                    {/*    我要上传！*/}
+                    {/*</Button>*/}
+                    <Card title="这张图片的标签" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>
+                        <p>{responseData.root}</p>
+                        <p>{responseData.keyword}</p>
+                    </Card>
                 </div>
-                {/*<Button type="primary"*/}
-                {/*    onClick={this.handleClick}*/}
-                {/*>*/}
-                {/*    我要上传！*/}
-                {/*</Button>*/}
-                <Card title="这张图片的标签" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>
-                    <p>{responseData.root}</p>
-                    <p>{responseData.keyword}</p>
-                </Card>
-            </div>
             </div>
         )
     }
