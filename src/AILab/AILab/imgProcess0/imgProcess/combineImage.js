@@ -34,7 +34,9 @@ let responseData1={
 let responseData2={
 
 };
-
+let img={
+    imgUrl:''
+};
 const { Option } = Select;
 const { Meta } = Card;
 
@@ -46,7 +48,6 @@ function getBase64(file) {
         reader.onerror = error => reject(error);
     });
 }
-
 function load() {
     document.getElementById("img1").src = responseData.messageDetail.image_url;
 }
@@ -73,13 +74,12 @@ function handleClick() {
             var data = JSON.parse(res);
             console.log(data);
             responseData2 = data;
-            load2();
-
             if (res.statusCode === 0) {
                 this.setState({
                     imageUrl: res.imageUrl,
                 });
                 message.success('上传成功！');
+                return responseData2.data.amazing_image_url;
             }
         },
         error: () => {//上传失败回调
@@ -237,8 +237,6 @@ class Demo extends React.Component {
                     fileList={fileList}
                     onChange={this.handleChange}
                 >
-                    {/*{img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%' }} /> :     uploadButton}*/}
-                    {/*{imgNum.num >= 1 ? null : uploadButton}*/}
                     <img id="img1" src={imageUrl} alt="原图" style={{ width: '100%'}} />
                 </Upload>
                 <Upload {...props1}

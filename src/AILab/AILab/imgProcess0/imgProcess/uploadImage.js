@@ -126,14 +126,14 @@ class Demo extends React.Component {
             },
         };
         return (
-            <div style={{margin:"auto",paddingTop:100,paddingBottom:100,maxWidth:400}}>
-            <div style={{marginLeft:148,paddingBottom:50}}>
+            <div style={{margin:"auto",paddingTop:100,paddingBottom:100,maxWidth:500}}>
+            <div style={{marginLeft:148,paddingBottom:50,maxWidth:200}}>
                 <Upload
                     {...props}
                     listType="picture-card"
                     onChange={this.handleChange}
                 >
-                <img id="img1" src={imageUrl} alt="上传图片" style={{ width: '100%'}} />
+                    <img id="img1" src={imageUrl} alt="上传图片" style={{ width: '100%'}} />
                 </Upload>
             </div>
                 <Card title="颜值打分" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>

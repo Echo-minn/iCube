@@ -26,8 +26,6 @@ let responseCaptcha={
     url:'/login'
 };
 
-let responseURL='/login';
-
 const {Option} = Select;
 
 const residences = [
@@ -97,50 +95,19 @@ class RegistrationForm extends React.Component {
                     console.log(responseCaptcha.statusCode);
                     if(responseCaptcha.statusCode==='0'){
                         message.success("注册成功，马上登录吧！");
-                        return (
-                            <Alert
-                                message="Success Tips"
-                                description="注册成功，马上登录吧！"
-                                type="success"
-                                showIcon
-                            />
-                        );
                     }else if(responseCaptcha.statusCode==='502'){
                         message.info("你已经注册过啦~");
-                        return (
-                            <Alert
-                                message="WARNING"
-                                description="你已经注册过啦~可以直接登录哦~~"
-                                type="warning"
-                                showIcon
-                            />
-                        );
                     }else if(responseCaptcha.statusCode==='503'){
                         message.error("验证码输错了呜呜呜=_=");
-                        return (
-                            <Alert
-                                message="ERROR"
-                                description="验证码输错了呜呜呜=_="
-                                type="error"
-                                showIcon
-                            />
-                        );
                     }else if(responseCaptcha.statusCode==='504'){
                         message.warning("你还没有获得验证码哦");
-                        return (
-                            <Alert
-                                message="ERROR"
-                                description="你还没有获得验证码哦"
-                                type="error"
-                                showIcon
-                            />
-                        );
                     }
                 })
                 .catch(function (error) {
                     console.log(error);
                 });
         });
+        this.alertMessage1();
     };
 
     /**
@@ -164,23 +131,26 @@ class RegistrationForm extends React.Component {
                 .then(function (response) {
                     console.log(response);
                     if(response.data.statusCode==='0'){
-                        message.success("验证码发送成功！");
-                        return (
-                            <Alert
-                                message="Success Tips :)"
-                                description="恭喜你，验证码发送成功啦~~"
-                                type="success"
-                                showIcon
-                            />
-                        );
+                        message.success("验证码发送成功！")
                     }
                 })
                 .catch(function (error) {
                     console.log(error);
                 });
-
         });
+        this.alertMessage0();
     };
+
+    /**
+     * 提示消息
+     * @param
+     */
+    alertMessage0(){
+        message.success("验证码发送成功！");
+    }
+    alertMessage1(){
+        message.success("注册成功！现在去登录吧");
+    }
 
     handleConfirmBlur = e => {
         const {value} = e.target;
@@ -245,8 +215,8 @@ class RegistrationForm extends React.Component {
 
         return (
             <div>
-                <Form {...formItemLayout} onSubmit={this.handleSubmit} style={{width: 450}} className="login-form">
-                    <h2><b>Welcome to iCube! 赶紧注册吧 :)</b></h2>
+                <Form {...formItemLayout} onSubmit={this.handleSubmit} style={{width: 450,margin:"auto",textAlign:"center"}} className="login-form">
+                    <h2 style={{paddingTop:20}}><b>Welcome to iCube! 赶紧注册吧 :)</b></h2>
                         <Form.Item label="E-mail">
                             {getFieldDecorator('email', {
                                 rules: [
@@ -322,7 +292,7 @@ class RegistrationForm extends React.Component {
                                 })(<Input/>)}
                             </Col>
                             <Col span={12}>
-                                <Button onClick={this.handleSend}>Get captcha</Button>
+                                <Button onClick={this.handleSend} >Get captcha</Button>
                             </Col>
                         </Row>
                     </Form.Item>
@@ -336,7 +306,7 @@ class RegistrationForm extends React.Component {
                         )}
                     </Form.Item>
                     <Form.Item {...tailFormItemLayout}>
-                        <a href={responseCaptcha.url}>
+                        <a href='/login'>
                             <Button type="primary" onClick={this.handleSubmit}>
                                 Register
                             </Button>

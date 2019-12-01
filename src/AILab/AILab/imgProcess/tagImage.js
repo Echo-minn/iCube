@@ -1,23 +1,12 @@
 import React from "react";
-import axios from 'axios';
 import reqwest from 'reqwest';
 
 import {
     Form,
     Select,
-    InputNumber,
-    Switch,
-    Radio,
-    Slider,
-    Button,
     Upload,
     Icon,
-    Rate,
-    Checkbox,
-    Row,
-    Col,
     Card,
-    Modal,
     message,
 } from 'antd';
 
@@ -31,17 +20,6 @@ let img={
     imgUrl:''
 };
 
-const { Option } = Select;
-const { Meta } = Card;
-
-function getBase64(file) {
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = () => resolve(reader.result);
-        reader.onerror = error => reject(error);
-    });
-}
 
 function load() {
     document.getElementById("p1").innerHTML = responseData.messageDetail.image_detial.root;

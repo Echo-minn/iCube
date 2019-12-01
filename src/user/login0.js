@@ -10,8 +10,7 @@ let responseData = {
   messageDetail:'',
   url:'/register',
 };
-//let responseURL='/';
-//17786047941
+
 class loginForm extends React.Component {
     handleSubmit = e => {
         e.preventDefault();
@@ -95,7 +94,7 @@ class loginForm extends React.Component {
                             Log in
                         </Button>
                     </a>
-                    Or <a href="/register">register now!</a>
+                    Or go to <a href="/register">register now!</a>
                 </Form.Item>
                 <div className="padding-div"/>
             </Form>
