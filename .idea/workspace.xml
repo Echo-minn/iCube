@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c6c2c812-9c94-4101-a3ca-45c26a6f9910" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess11.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/combineImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/tagImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/uploadImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,104 +20,101 @@
     <favorites_list name="iCube" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/js/dat.gui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="2530" selection-start-line="2530" selection-end-line="2530" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
-              <folding>
-                <element signature="e#784#3406#0" />
-                <element signature="e#3465#3510#0" />
-                <element signature="e#3610#3915#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!block;n#constructor#0;n#App#0" />
-                <element signature="e#1473#1498#0" />
-                <element signature="e#1399#2635#0" />
-                <element signature="e#2646#2839#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/js/OrbitControls.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1248" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanvasLoading/js/three.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.26305354">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="182">
+                  <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/uploadImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="308">
+                  <caret line="145" column="127" selection-start-line="145" selection-start-column="127" selection-end-line="145" selection-end-column="127" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#3749#4065#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="333">
+                  <caret line="140" column="101" lean-forward="true" selection-start-line="140" selection-start-column="90" selection-end-line="140" selection-end-column="101" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#App#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/combineImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="253" column="15" lean-forward="true" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#4784#6956#0" />
+                    <element signature="e#7159#7631#0" />
+                    <element signature="e#7648#8134#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/uploadImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="139" column="32" lean-forward="true" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/tagImage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="128" column="90" selection-start-line="128" selection-start-column="90" selection-end-line="128" selection-end-column="90" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-overrides.js" />
-        <option value="$PROJECT_DIR$/src/user/login/index.jsx" />
-        <option value="$PROJECT_DIR$/src/user/login/store.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/user/login/login0.js" />
         <option value="$PROJECT_DIR$/src/user/register.css" />
@@ -182,21 +171,24 @@
         <option value="$PROJECT_DIR$/src/iTeam/data.source.js" />
         <option value="$PROJECT_DIR$/src/iTeam/less/edit.less" />
         <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/combineImage.js" />
-        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js" />
         <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/tagImage.js" />
-        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js" />
         <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/uploadImage.js" />
-        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/uploadImage.js" />
         <option value="$PROJECT_DIR$/src/CanvasLoading/js/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/combineImage.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess/uploadImage.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/uploadImage.js" />
+        <option value="$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/tagImage.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="28" />
-    <option name="width" value="978" />
+    <option name="x" value="950" />
+    <option name="y" value="27" />
+    <option name="width" value="979" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -224,7 +216,47 @@
               <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
               <item name="iCube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CanvasLoading" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="imgProcess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="imgProcess0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="imgProcess0" type="462c0819:PsiDirectoryNode" />
+              <item name="imgProcess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iCube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iCube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="AILab" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +352,8 @@
       <workItem from="1575032775015" duration="6836000" />
       <workItem from="1575044748904" duration="3423000" />
       <workItem from="1575088014180" duration="5449000" />
-      <workItem from="1575097329710" duration="2205000" />
+      <workItem from="1575097329710" duration="3705000" />
+      <workItem from="1575165021782" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="Home page demo">
       <created>1574086587160</created>
@@ -389,7 +422,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184417000" />
+    <option name="totallyTimeSpent" value="188059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +437,7 @@
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.12095175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.17713153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50174826" side_tool="true" weight="0.19695969" />
@@ -415,7 +448,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.15151516" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17171717" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.2900433" />
@@ -462,19 +495,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ai research" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/user/login/components/Login/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/AINews/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1357">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#401#420#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/login/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/user/register.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -703,24 +723,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/combineImage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/tagImage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/uploadImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3606#4496#0" />
-            <element signature="e#3749#4065#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/combineImage.js" />
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/tagImage.js" />
     <entry file="file://$PROJECT_DIR$/src/iTeam/data.source.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -752,32 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2756">
-          <caret line="127" column="10" selection-start-line="127" selection-start-column="10" selection-end-line="127" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3641#4651#0" />
-            <element signature="e#3817#4168#0" />
-            <element signature="e#4394#4632#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3640">
-          <caret line="160" column="53" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/uploadImage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess11/imgProcess/uploadImage.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -865,26 +844,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="208">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
-            <element signature="n#!!block;n#constructor#0;n#App#0" />
-            <element signature="e#1473#1498#0" />
-            <element signature="e#1399#2635#0" />
-            <element signature="e#2646#2839#0" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#App#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/tagImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="140" column="101" lean-forward="true" selection-start-line="140" selection-start-column="90" selection-end-line="140" selection-end-column="101" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/combineImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/combineImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="253" column="15" lean-forward="true" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#4784#6956#0" />
+            <element signature="e#7159#7631#0" />
+            <element signature="e#7648#8134#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess/uploadImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="145" column="127" selection-start-line="145" selection-start-column="127" selection-end-line="145" selection-end-column="127" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#3749#4065#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/uploadImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="139" column="32" lean-forward="true" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AILab/AILab/imgProcess0/imgProcess/tagImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="128" column="90" selection-start-line="128" selection-start-column="90" selection-end-line="128" selection-end-column="90" />
         </state>
       </provider>
     </entry>

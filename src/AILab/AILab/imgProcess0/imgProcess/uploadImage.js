@@ -1,41 +1,23 @@
 import React from "react";
 import axios from 'axios';
-//import apis from '@/services/api';
 import reqwest from 'reqwest';
 
 import {
     Form,
     Select,
-    InputNumber,
-    Switch,
-    Radio,
-    Slider,
-    Button,
     Upload,
     Icon,
-    Rate,
-    Checkbox,
-    Row,
-    Col,
     Card,
-    Modal,
     message,
 } from 'antd';
 
 //定义后台返回数据类型
 let responseData={
-    score:'',
-    root:'',
-    baike_info:{},
-    keyword:''
+
 };
 
 let img={
-    imgUrl:'https://couseraccess.oss-cn-beijing.aliyuncs.com/file84472904848.png'
-};
-
-let imgNum={
-    num:0
+    imgUrl:''
 };
 
 const { Option } = Select;
@@ -50,16 +32,20 @@ function getBase64(file) {
     });
 }
 
+function load() {
+    document.getElementById("p1").innerHTML = "年龄："+responseData.messageDetail.image_detail.age;
+    document.getElementById("p2").innerHTML = "分数："+responseData.messageDetail.image_detail.score;
+    document.getElementById("img1").src = responseData.messageDetail.file_url;
+}
+
+function loadError() {
+    document.getElementById("p1").innerHTML = "未检测到人脸";
+    document.getElementById("img1").src = responseData.messageDetail.file_url;
+}
+
 class Demo extends React.Component {
     state = {
         loading: false,
-        previewVisible: false,
-        previewImage: '',
-        fileList: [
-
-        ],
-        root:'',
-        keyword:'',
     };
 
     handleClick() {
@@ -70,10 +56,10 @@ class Demo extends React.Component {
     handleChange = ({ fileList }) => this.setState({ fileList });
 
     render() {
-        const { previewVisible, previewImage, fileList,root,keyword} = this.state;
+
         const uploadButton = (
             <div>
-                <Icon type={this.state.loading ? 'loading' : 'plus'} />
+                <Icon type={this.state.loading ? 'loading' : 'plus'}/>
                 <div className="ant-upload-text">上传</div>
             </div>
         );
@@ -81,28 +67,29 @@ class Demo extends React.Component {
 
         const props = {
             name: "avatar",
-            showUploadList: true,//设置只上传一张图片，根据实际情况修改
+            showUploadList: false,//设置只上传一张图片，根据实际情况修改
             customRequest: info => {//手动上传
                 const formData = new FormData();
                 formData.append('filename', info.file);//名字和后端接口名字对应
                 formData.append('recognize_type', "1");
                 reqwest({
-                    url: 'http://www.icube.fun:8000/image_recognize/',//上传url
+                    url: 'http://www.icube.fun:8000/face_recognize/',//上传url
                     method: 'post',
                     processData: false,
                     data: formData,
                     success: (res) => {//上传成功回调
-                        message.success("success");
                         var data = JSON.parse(res);
                         console.log(data);
                         responseData = data;
-                        imgNum.num = imgNum.num + 1;
-
-                        if (res.statusCode === 0) {
-                            this.setState({
-                                imageUrl: res.imageUrl,
-                            });
-                            message.success('上传成功！');
+                        console.log("------");
+                        if (data.statusCode === 0) {
+                            message.success('分析成功！');
+                            load();
+                        }
+                        else
+                        {
+                            message.success('分析成功！');
+                            loadError();
                         }
                     },
                     error: () => {//上传失败回调
@@ -139,29 +126,26 @@ class Demo extends React.Component {
             },
         };
         return (
-            <div style={{margin:"auto",paddingTop:150,paddingBottom:150,maxWidth:400}}>
-                <div>
-                    <div style={{margin:"auto",textAlign:"center",marginLeft:90}}>
-                        <Upload {...props}
-                                listType="picture-card"
-                                fileList={fileList}
-                                onChange={this.handleChange}
-                        >
-                            {/*{img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%' }} /> :     uploadButton}*/}
-                            {imgNum.num >= 1 ? null : uploadButton}
-                        </Upload>
-                    </div>
-
-                    <Card title="这张图片的标签" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>
-                        <p>{responseData.root}</p>
-                        <p>{responseData.keyword}</p>
-                    </Card>
-                </div>
+            <div style={{margin:"auto",paddingTop:100,paddingBottom:100,maxWidth:400}}>
+            <div style={{marginLeft:148,paddingBottom:50}}>
+                <Upload
+                    {...props}
+                    listType="picture-card"
+                    onChange={this.handleChange}
+                >
+                <img id="img1" src={imageUrl} alt="上传图片" style={{ width: '100%'}} />
+                </Upload>
+            </div>
+                <Card title="颜值打分" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>
+                    <p id="p1"/>
+                    <p id="p2"/>
+                </Card>
             </div>
         )
     }
 
+
 }
 
-const WrappedDemo1 = Form.create({ name: 'validate_other' })(Demo);
-export default WrappedDemo1;
+const WrappedDemo = Form.create({ name: 'validate_other' })(Demo);
+export default WrappedDemo;

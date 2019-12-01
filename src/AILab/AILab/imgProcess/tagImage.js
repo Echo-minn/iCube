@@ -138,11 +138,6 @@ class Demo extends React.Component {
                         {img.imgUrl ? <img src={img.imgUrl} alt="avatar" style={{ width: '100%'}} /> :     uploadButton}
                     </Upload>
                 </div>
-                {/*<Button type="primary"*/}
-                {/*    onClick={this.handleClick}*/}
-                {/*>*/}
-                {/*    我要上传！*/}
-                {/*</Button>*/}
                 <Card title="这张图片的标签" bordered={false} style={{ width: 300 ,margin:"auto",background: '#FAFAFA',textAlign:"center"}}>
                     <p>{responseData.root}</p>
                     <p>{responseData.keyword}</p>
